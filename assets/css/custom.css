@@ -74,3 +74,23 @@ h6,
 .page__content a:hover {
   text-decoration: underline;
 }
+
+# Making bulletted lists with arrows in markdown
+.page__content ul.arrows {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 1.5em;
+}
+
+.page__content ul.arrows li {
+  position: relative;
+  padding-left: 1.5em;
+  margin-bottom: 0;
+}
+
+.page__content ul.arrows li::before {
+  content: "⟶";
+  position: absolute;
+  left: 0;
+  color: #bdc1c6;
+}
