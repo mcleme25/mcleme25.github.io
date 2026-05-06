@@ -90,24 +90,4 @@ h6,
   .page__title {
     font-size: 1.9em;
   }
-
-/* Phone view: put the Follow button below the author bio */
-    .sidebar .author__content {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .sidebar .author__bio {
-    order: 1;
-  }
-
-  .sidebar .author__urls-wrapper {
-    order: 2;
-    margin-top: 0.75em;
-  }
-
-  .sidebar .author__urls {
-    margin-top: 0.5em;
-  }
 }
-
