@@ -1,0 +1,67 @@
+/* Load Crimson Pro from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Main body text */
+body,
+.page__content,
+.archive,
+.sidebar,
+.author__content,
+.author__bio,
+.author__urls,
+.greedy-nav,
+.masthead,
+.site-title,
+button,
+input,
+textarea,
+select {
+  font-family: "Crimson Pro", Georgia, "Times New Roman", serif;
+  font-weight: 400;
+}
+
+/* Headings and titles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.page__title,
+.archive__item-title,
+.archive__subtitle {
+  font-family: "Crimson Pro", Georgia, "Times New Roman", serif;
+  font-weight: 400;
+}
+
+/* Main page title: lighter, more elegant */
+.page__title {
+  font-weight: 300;
+  letter-spacing: -0.01em;
+}
+
+/* Navigation: keep readable */
+.greedy-nav,
+.greedy-nav a,
+.masthead__menu,
+.masthead__menu-item {
+  font-family: "Crimson Pro", Georgia, "Times New Roman", serif;
+  font-weight: 500;
+}
+
+/* Sidebar author name */
+.author__name {
+  font-family: "Crimson Pro", Georgia, "Times New Roman", serif;
+  font-weight: 500;
+}
+
+/* Body text size and rhythm */
+.page__content {
+  font-size: 1.08em;
+  line-height: 1.65;
+}
+
+/* Slightly nicer paragraph spacing */
+.page__content p {
+  margin-bottom: 1.1em;
+}
