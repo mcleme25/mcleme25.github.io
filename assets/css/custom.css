@@ -58,7 +58,7 @@ h6,
 /* Body text size and rhythm */
 .page__content {
   font-size: 1.08em;
-  line-height: 1.65;
+  line-height: 1.45;
 }
 
 /* Slightly nicer paragraph spacing */
@@ -71,7 +71,7 @@ h6,
 
   .page__content {
     font-size: 1.14em;
-    line-height: 1.68;
+    line-height: 1.45;
   }
 
   .author__content,
