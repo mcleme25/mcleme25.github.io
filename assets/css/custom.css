@@ -75,11 +75,13 @@ h6,
   text-decoration: underline;
 }
 
-# Making bulletted lists with arrows in markdown
+/* Making bulleted lists with arrows in markdown */
 .page__content ul.arrows {
   list-style: none;
   padding-left: 0;
   margin-left: 1.5em;
+  margin-top: -0.6em;
+  margin-bottom: 1.1em;
 }
 
 .page__content ul.arrows li {

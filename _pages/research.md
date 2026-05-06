@@ -15,7 +15,8 @@ A few of my key papers are below. You can find a comprehensive list in [my CV](/
 
 "[Economics and Emigration: Trillion-Dollar Bills on the Sidewalk?](http://doi.org/10.1257/jep.25.3.83)", *Journal of Economic Perspectives*, 25 (3): 83–106.
 
-"[The Effect of Low-Skill Immigration Restrictions on US Firms and Workers: Evidence from a Randomized Lottery](https://www.aeaweb.org/articles?id=10.1257/app.20250049)", *American Economic Journal: Applied Economics* (with Ethan G. Lewis). Co-released with [NBER](https://doi.org/10.3386/w30589), [IZA](https://www.iza.org/publications/dp/15667), [CESifo](https://www.cesifo.org/node/72441), and [CReAM](https://www.cream-migration.org/publ_uploads/CDP_24_22.pdf).
+"[The Effect of Low-Skill Immigration Restrictions on US Firms and Workers: Evidence from a Randomized Lottery](https://www.aeaweb.org/articles?id=10.1257/app.20250049)", *American Economic Journal: Applied Economics* (with Ethan G. Lewis). 
+<!-- Co-released with [NBER](https://doi.org/10.3386/w30589), [IZA](https://www.iza.org/publications/dp/15667), [CESifo](https://www.cesifo.org/node/72441), and [CReAM](https://www.cream-migration.org/publ_uploads/CDP_24_22.pdf). -->
 
 - [Summary for VoxEU](https://cepr.org/voxeu/columns/restricting-hiring-low-skill-immigrants-hurts-firms-and-does-not-benefit-native-born). Featured in the [NBER Digest](https://www.nber.org/digest/202212/low-skill-foreign-employees-impacts-us-firms-and-workers), December 2022
 {: .arrows}
