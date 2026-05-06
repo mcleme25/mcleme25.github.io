@@ -11,11 +11,11 @@ main:
   - title: "CV"
     url: /files/cv.pdf
 
-  - title: "Publications"
-    url: /publications/
+  - title: "Research"
+    url: /research/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Policy"
+    url: /policy/
 
   - title: "Teaching"
     url: /teaching/    
