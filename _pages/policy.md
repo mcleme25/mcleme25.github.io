@@ -1,9 +1,11 @@
 ---
 layout: archive
-title: "Policy"
+title: "Policy and litigation"
 permalink: /policy/
 author_profile: true
 ---
+
+I often write to advise policy makers, courts of law, and voters. A few of my key policy writings are below, and a comprehensive list is in [my CV](/files/cv.pdf).
 
 ## Selected policy writings
 
