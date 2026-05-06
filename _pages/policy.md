@@ -12,7 +12,7 @@ I often advise policy makers, courts of law, and voters. A handful of my key pol
 "[Global Skill Partnerships: a proposal for technical training in a mobile world](https://doi.org/10.1186/s40173-014-0028-z)", *IZA Journal of Labor Policy*, 4: 2.
 
 <div style="margin: -0.7em 0 1.1em 1.5em;">
-<span style="color:#bdc1c6; margin-right:0.5em;">⟶</span>Proposal endorsed by over 150 countries at <a href="https://undocs.org/A/CONF.231/3">United Nations</a> and implemented worldwide by the <a href="https://documents1.worldbank.org/curated/en/099012625065011104/pdf/P177415-878f121b-d70f-460b-9813-533520ac88d1.pdf">World Bank</a>
+<span style="color:#bdc1c6; margin-right:0.5em;">⟶</span>Proposal endorsed by over 150 countries at <a href="https://docs.un.org/en/A/CONF.231/3">United Nations</a> and implemented worldwide by the <a href="https://documents1.worldbank.org/curated/en/099012625065011104/pdf/P177415-878f121b-d70f-460b-9813-533520ac88d1.pdf">World Bank</a>
 </div>
 
 "[Shared Border, Shared Future: A Blueprint to Regulate US-Mexico Labor Mobility](http://www.cgdev.org/sites/default/files/CGD-shared-border-shared-future-report-eng1.pdf)", Washington, DC: Center for Global Development (with Ernesto Zedillo and Carlos Gutierrez). [‣En español](https://www.cgdev.org/sites/default/files/CGD-shared-border-shared-future-report-es.pdf)
