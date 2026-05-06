@@ -1,11 +1,9 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Courses taught"
 permalink: /teaching/
 author_profile: true
 ---
-
-## Courses taught
 
 **2026.** *Short Course on the Economics of Immigration and Innovation* (PhD), Institute for Progress.
 
