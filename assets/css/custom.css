@@ -65,29 +65,3 @@ h6,
 .page__content p {
   margin-bottom: 1.1em;
 }
-
-/* Mobile-only adjustments */
-@media screen and (max-width: 768px) {
-
-  .page__content {
-    font-size: 1.14em;
-    line-height: 1.68;
-  }
-
-  .author__content,
-  .author__bio,
-  .author__urls {
-    font-size: 1.3em;
-  }
-
-  .author__avatar,
-  .author__avatar img {
-    width: 150px !important;
-    max-width: 150px !important;
-    height: auto !important;
-  }
-
-  .page__title {
-    font-size: 1.9em;
-  }
-}
