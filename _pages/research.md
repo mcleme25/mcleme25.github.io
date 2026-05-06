@@ -5,6 +5,10 @@ permalink: /research/
 author_profile: true
 ---
 
+My academic inquiry has addressed economic history, foreign aid, and empirical methods, but recently focuses primarily on the causes and effects of international migration. My writings have appeared in top journals including the *American Economic Review* and have been awarded the [Royal Economic Society Prize](https://res.org.uk/royal-economic-society-prize/). 
+
+A few of my key papers are below. You can find a comprehensive list in [my CV](/files/cv.pdf).
+
 ## Selected papers
 
 "[The Effect of Low-Skill Immigration Restrictions on US Firms and Workers: Evidence from a Randomized Lottery](https://www.nber.org/papers/w30589)", NBER Working Paper 30589 (with Ethan G. Lewis). Co-released with [IZA](https://www.iza.org/publications/dp/15667), [CESifo](https://www.cesifo.org/node/72441), and [CReAM](https://www.cream-migration.org/publ_uploads/CDP_24_22.pdf).
