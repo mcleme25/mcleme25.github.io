@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Immigration economics and policy innovation"
   location         : "Washington, DC"
-  employer         : "[Johns Hopkins University](http://sgp.jhu.edu)"
+  employer         : <a href="https://sgp.jhu.edu">Johns Hopkins University</a>
   uri              : "mclem.org"
   email            : "mcleme25@jhu.edu" 
 
