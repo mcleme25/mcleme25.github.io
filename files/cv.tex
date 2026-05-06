@@ -1,0 +1,1021 @@
+\documentclass[10pt]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{longtable}
+
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{array, xcolor}
+\usepackage{scrextend}	% allows addmargin environment'
+\usepackage{graphicx}       % for includegraphics with multiple-page pdfs
+
+\usepackage{nowidow}
+\usepackage{lmodern}		% Enables copying/pasting text from PDF without "ff", "fs", etc. problems
+\usepackage[T1]{fontenc}	% Enables copying/pasting text from PDF without "ff", "fs", etc. problems
+
+\definecolor{lightgray}{gray}{0.8}
+\definecolor{BBlue}{rgb}{.1,.1,.5}  
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+\setlength{\parskip}{10pt}
+
+%\usepackage{changepage}   % allows 'adjustwidth' environment
+
+\usepackage{hyperref}
+\hypersetup{bookmarks=true,colorlinks=true,urlcolor=RoyalBlue,pdfpagemode=UseNone}
+\urlstyle{same}
+
+%\usepackage{utopia,amssymb,amsfonts,amsmath,latexsym,setspace}
+% lmodern, palatino, utopia
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath}
+\usepackage[compact]{titlesec}
+
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\setlength{\headheight}{0pt}
+\pagestyle{fancyplain}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\lhead{\fancyplain{}{}}
+\chead{}
+\rhead{\fancyplain{}{Michael A.\ Clemens, \thepage \hspace{2pt}of  \pageref*{LastPage}}}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+
+\newcommand*{\helvetica}{\fontfamily{phv}\selectfont}
+
+\usepackage[compact]{titlesec}
+\titleformat{\section}
+  {\Large\helvetica}
+  {\thesection}{1em}{}
+\titleformat{\subsection}
+  {\large}
+  {\thesubsection}{1em}{}
+
+\usepackage{fontawesome5}  % For web icons
+
+%\usepackage{twemojis}  % butterfly https://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf
+
+
+\setcounter{secnumdepth}{0}    %Kills section numbers
+
+
+%\date{}
+\begin{document}
+%\blinddocument  %Turns off section numbering
+
+\thispagestyle{empty}   % This removes the header from the first page
+
+
+
+\begin{center}
+
+{\LARGE \helvetica Michael A. Clemens} \\
+\vspace{20pt}
+%\href{http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/economics/index.htm}{\color{black}{\textbf{Stern School of Business, New York University} }}
+
+\renewcommand{\tabcolsep}{0.15cm}
+
+\begin{tabular} {lrl}
+  Johns Hopkins University SGP  & \textcolor{gray!66}{\faLink} & \href{https://mclem.org}{mclem.org} \\
+  555 Pennsylvania Ave.\ NW \phantom{xx} & \includegraphics[height=9pt, trim=0cm 20cm 40cm 10cm, clip]{butterfly.jpg} & \href{https://bsky.app/profile/mclem.org}{bsky.app/profile/mclem.org} \\
+  Washington, DC 20001 USA & \textcolor{gray!66}{\faEnvelope[regular]} &  \href{mailto:mcleme@gmu.edu}{mcleme@gmu.edu}  \\
+\end{tabular}
+
+%\begin{tabular} {lrl}
+%	Center for Global Development  & \textit{Phone} & (+1) 202 262 4980\\
+%	2055 L Street NW, 5\textsuperscript{th} floor \phantom{XXXX} & \textit{Email} & \href{mailto:clemens@sent.com}{clemens@sent.com}\\
+%	Washington, DC 20036 USA & \textit{Web} & \href{http://mclem.org}{http://mclem.org}   \\
+%\end{tabular}
+
+\end{center}
+
+%\vspace{12pt}
+
+\section{Affiliations}
+\begin{longtable}{L !{\VRule} R}
+	
+May 2026-- & Johns Hopkins University, School of Government \& Policy (Washington, DC) \\[+.5ex]
+& \phantom{xxxx} \textit{$\triangleright$ Full Professor with tenure, and founding faculty member} \\[+.5ex]
+& \phantom{xxxx} \textit{$\triangleright$ Professor by courtesy in the Dept.\ of Economics} \\[+1ex]
+&\\[-2.5ex]	
+	
+2023--2026 & Dept.\ of Economics, George Mason University (Fairfax, VA); \textit{Full Professor with tenure} \\[+1ex]
+
+2023--\textit{} &Peterson Institute for International Economics (Washington, DC); \textit{Non-Resident Senior Fellow} \\[+1ex]
+
+2014--\textit{} & IZA--Institute of Labor Economics (LISER, Luxembourg); \textit{Research Fellow} \\[+1ex]
+
+
+2025--\textit{} & \textit{Journal of Economic Perspectives} (American Economic Association); \textit{Associate Editor}  \\[+1ex]
+
+2021--\textit{}\\[1ex] & \href{https://www.rfberlin.com/cream-rfberlin/}{Centre for Research \& Analysis of Migration} (CReAM), Rockwool Fdn. (Berlin); \textit{Research Fellow} \\[+1ex]
+
+2025--\textit{} & Center for Economic Policy Research (CEPR, UK); \textit{Invited Member}, Research \& Policy Network on the \href{https://cepr.org/research/research-policy-networks/political-economy-migration}{Political Economy of Migration}  \\[+1ex]
+&\\[-1.5ex]
+
+2023--\textit{} & Center for Global Development (Washington, DC); \textit{Distinguished Non-Resident Fellow}  \\[+1ex]
+
+2026--\textit{} & \href{https://econweb.ucsd.edu/~pniehaus/fulcrumproject/#}{Fulcrum Project} (UCSD and Dartmouth); \textit{Mentor}  \\[+1ex]
+
+
+
+2021--2023 &  US Agency for International Development; \textit{Expert Development Economist}  \\[+.5ex]
+& \phantom{xxxx} \textit{$\triangleright$ Office of the Administrator, TS security clearance } \\[+1ex]
+	
+	
+2002--2023 & Center for Global Development (Washington, DC) \\[+.5ex]
+& \phantom{xxxx} \textit{$\triangleright$ Director for Migration, Displacement, \& Humanitarian Policy, 2019--2023} \\
+& \phantom{xxxx} \textit{$\triangleright$ Co-Director for Migration, Displacement, \& Humanitarian Policy, 2017--2019} \\
+
+& \phantom{xxxx} \textit{$\triangleright$ Research Fellow, 2002--2010; Senior Fellow, 2010--2023; Research Manager, 2011--2017} \\[+1ex]
+
+ 2022 & Georgetown University (SFS \& McCourt School); \textit{Adjunct Professor} \\[+1ex]
+
+
+2016--2022 & \textit{Journal of Population Economics} (Springer); \textit{Associate Editor} \\[+1ex]
+
+
+2016--2020 & \textit{World Development} (Elsevier); \textit{Associate Editor} \\[+1ex]
+
+2011 & Dept.\ of Economics \& Wagner School, New York University; \textit{Visiting Scholar}\\[+1ex]
+
+2003--2010 & McCourt School of Public Policy, Georgetown University; \textit{Affiliated Associate Professor} \\[+1ex]
+
+2000--2002 & Center for International Development, Harvard University; \textit{Research Fellow} \\[+1ex]
+
+1998--2000 & World Bank; \textit{Consultant}, environmental economics \\[+1ex]
+
+1999 & Bain \& Company (Istanbul, Turkey); \textit{Associate Consultant} \\[+1ex]
+
+1996 \& 1997 & World Bank; \textit{Summer Assistant}, environmental economics  \\[+1ex]
+
+1994--1995 & Thomas J. Watson Foundation; \textit{Watson Fellow} in Bogot\'{a}, Colombia \& Cuiab\'{a}, Brazil \\[+1ex]
+\end{longtable}
+
+
+%%% &\\[-1.85ex]
+%%% & \phantom{xxxx} $\triangleright$ Covered in \href{}{\it } \\
+
+\section{Academic Journal Articles} 
+\begin{longtable}{L !{\VRule} R}
+\endfirsthead
+\multicolumn{2}{l}{\Large \helvetica Academic Journal Articles, \textit{continued}} \\ [+3.5ex] 
+%\vspace{+3mm}
+\endhead
+
+2026 & ``\href{https://www.aeaweb.org/articles?id=10.1257/app.20250049}{The effect of low-skill immigration restrictions on US firms and workers: Evidence from a randomized lottery}'',  \textit{American Economic Journal: Applied Economics}, forthcoming (with Ethan G.\ Lewis). $\big \langle$\textit{Pre-pub.\ version at \href{https://www.nber.org/papers/w30589}{NBER}, \href{https://www.iza.org/publications/dp/15667}{IZA}, \href{https://www.cream-migration.org/publ_uploads/CDP_24_22.pdf}{CReAM}, \href{https://www.cesifo.org/en/publications/2022/working-paper/effect-low-skill-immigration-restrictions-us-firms-and-workers}{CESifo}, and \href{https://www.cgdev.org/publication/effect-low-skill-immigration-restrictions-us-firms-and-workers-evidence-randomized}{CGD}}$\big \rangle$\\
+&\\[-1ex]
+& \phantom{xxxx} \begin{minipage}{5in}$\triangleright$ \href{https://cepr.org/voxeu/columns/restricting-hiring-low-skill-immigrants-hurts-firms-and-does-not-benefit-native-born}{Summary for VoxEU}; Featured in the \href{https://www.nber.org/digest/202212/low-skill-foreign-employees-impacts-us-firms-and-workers}{NBER Digest}, December 2022;  Referenced by White House Council of Economic Advisers in  \href{https://www.whitehouse.gov/wp-content/uploads/2023/03/ERP-2023.pdf}{\textit{Economic Report of the President}}, March 2023 \end{minipage} \\
+&\\[-1ex]
+
+& \phantom{xxxx} \begin{minipage}{5in}$\triangleright$ Covered by \href{https://www.wsj.com/articles/migrants-are-doing-better-than-ever-thanks-to-tight-labor-market-11675784935?st=vof8pkdfyogll7y&reflink=desktopwebshare_permalink}{\it Wall Street Journal} [\href{https://www.wsj.com/articles/the-worlds-biggest-economies-cautiously-open-their-doors-to-more-foreign-workers-664c3549}{bis}],  \href{https://www.npr.org/2022/11/04/1134417921/could-foreign-workers-unlock-americas-tight-labor-market}{NPR}, \href{https://www.nbcnews.com/data-graphics/tough-immigration-laws-construction-workers-home-builders-rcna82540}{NBC},  \href{https://www.cnn.com/2024/03/21/business/construction-industry-needs-immigrant-workers/index.html}{CNN}, \href{https://www.theatlantic.com/podcasts/archive/2024/11/immigration-worker-wages-myth-jobs/680523/}{\it The Atlantic}, \href{https://news.bloomberglaw.com/daily-labor-report/winning-h-2b-lottery-means-higher-production-us-worker-hiring}{\it Bloomberg Law} [\href{https://www.fwd.us/news/new-york-economy/}{bis}], \href{https://www.forbes.com/sites/stuartanderson/2022/10/26/another-study-concludes-immigration-critics-are-wrong/?sh=761360b3389f}{\it Forbes}, \href{https://newsroom.iza.org/en/archive/research/how-firms-adjust-when-they-cannot-hire-foreigners-for-low-skill-work/}{IZA Newsroom} (\href{https://newsroom.iza.org/de/archive/research/how-firms-adjust-when-they-cannot-hire-foreigners-for-low-skill-work/}{\textit{Auf Deutsch}}), \href{https://www.edwardconard.com/macro-roundup/us-firms-that-won-a-low-skill-h2b-work-visa-lottery-in-2021-22-and-hired-temporary-foreign-workers-saw-higher-revenue-and-investment-with-no-crowding-out-of-temporary-domestic-workers-m_clem-ethang/?view=detail}{\textit{Macro Roundup}} \end{minipage} \\
+&\\[-1ex]
+
+2024 & ``\href{https://doi.org/10.1016/j.jdeveco.2024.103359}{Migration from Developing Countries: Selection, Income Elasticity, and Simpson's Paradox}'', forthcoming in \textit{Journal of Development Economics} (with Mariapia Mendola). $\big \langle$\textit{Pre-pub.\ versions at \href{https://www.iza.org/publications/dp/13612/migration-from-developing-countries-selection-income-elasticity-and-simpsons-paradox}{IZA}, \href{https://www.cgdev.org/publication/migration-developing-countries-selection-income-elasticity-and-simpsons-paradox}{CGD}, and \href{https://ssrn.com/abstract=3688065}{Centro Studi Luca d'Agliano}}$\big \rangle$\\
+&\\[-1.85ex]
+
+& \phantom{xxxx} $\triangleright$  \href{https://voxdev.org/topic/migration-urbanisation/who-migrates-developing-countries}{Research Summary} for \textit{VoxDev} at CEPR \\[+.25ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{https://www.economist.com/middle-east-and-africa/2020/08/29/the-idea-that-aid-and-development-slow-migration-is-wrong}{\it The Economist}; \href{https://go.shr.lc/2YdHJUL}{\it United Nations Dispatch}; \href{https://www.bistandsaktuelt.no/nyheter/2020/bistand-stanser-ikke-migrasjon-i-forste-omgang/}{\it Bistandsaktuelt}; \href{https://newsroom.iza.org/en/archive/research/does-economic-development-deter-workers-from-leaving-poor-countries/}{IZA Newsroom}  \\
+&\\[-1ex]
+
+
+
+2023 & ``\href{https://doi.org/10.1016/j.jdeveco.2023.103112}{Human Capital Investment under Exit Options: Evidence from a Natural Quasi-Experiment}'', \textit{Journal of Development Economics}, 163: 103112 (with Satish Chand). $\big \langle$\textit{Pre-pub.\ versions at \href{https://www.cgdev.org/sites/default/files/human-capital-investment-under-exit-options-revision.pdf}{CGD} and \href{https://www.iza.org/publications/dp/12173/human-capital-investment-under-exit-options-evidence-from-a-natural-quasi-experiment}{IZA}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{http://www.economist.com/news/special-report/21707835-economic-migrants-are-seen-threat-jobs-and-welfare-state-reality-more}{\it The Economist}, \href{https://www.theatlantic.com/international/archive/2014/02/why-brain-drain-can-actually-benefit-african-countries/283750/}{\it The Atlantic} (\href{https://www.theatlantic.com/ideas/archive/2019/03/americans-can-learn-fiji-immigration/584539/}{bis}), \href{https://guardian.ng/technology/talent-gain-vs-brain-drain/}{\textit{Guardian Nigeria}} \\
+&\\[-1ex]
+
+
+2023 & ``\href{https://doi.org/10.1111/1467-8462.12522}{Labour Mobility with Vocational Skill: Australian Demand and Pacific Supply}'', \textit{Australian Ec.\ Rev.} 56 (4): 462--486 (with Satish Chand). $\big \langle$Pre-pub.\ versions at \href{https://www.iza.org/publications/dp/14848}{IZA} and \href{https://www.cgdev.org/publication/labour-mobility-vocational-skill-australian-demand-and-pacific-supply}{CGD}$\big \rangle$\\
+&\\[-1ex]
+
+2022 & ``\href{http://doi.org/10.1093/oxrep/grac012}{The economic and fiscal effects on the United States from reduced numbers of refugees and asylum seekers}'', \textit{Oxford Review of Economic Policy}, 38 (3): 449--486. $\big \langle$\textit{Pre-pub.\ versions at \href{https://www.iza.org/publications/dp/15317}{IZA} and \href{https://www.cgdev.org/publication/economic-and-fiscal-effects-united-states-reduced-numbers-refugees-and-asylum-seekers}{CGD}}$\big \rangle$ \\
+
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{https://www.bostonglobe.com/2023/01/31/business/how-do-we-solve-labor-shortage-bring-more-immigrants/?p1=StaffPage}{\it Boston Globe}, \href{https://www.marketwatch.com/story/u-s-economy-loses-billions-of-dollars-a-year-due-to-the-sharp-decline-in-refugee-admissions-economists-says-11663698920}{\it Marketwatch}, \href{https://www.forbes.com/sites/stuartanderson/2022/10/03/immigrants-provide-huge-benefits-to-us-taxpayers}{\it Forbes}, \href{https://elpais.com/economia/negocios/2022-09-19/un-mundo-en-diaspora-continua-por-que-los-refugiados-son-un-activo-contra-la-recesion.html}{\it El Pa\'{i}s}, \href{https://www.newsnationnow.com/us-news/immigration/study-fewer-refugees-economy/}{\it NewsNation}, \href{https://app.meltwater.com/newsletters/analytics/view/55d6156c96f3565f6ac8533c/newsletter/6246fd4a5020fd00146a7dac/distribution/632de2806545ca0014b0d113/document/DZIENK0020220906ei960001h}{\it Dziennik Gazeta} \\
+&\\[-1ex]  
+
+2022 & ``\href{http://doi.org/10.1257/pandp.20221050}{Migration on the Rise, a Paradigm in Decline: The Last Half-Century of Global Mobility}'', \textit{AEA Papers \& Proceedings}, 112: 257--261. $\big \langle$\textit{Pre-pub.\ versions at \href{https://www.iza.org/publications/dp/15045}{IZA}, \href{https://www.cream-migration.org/publ_uploads/CDP_02_22_1.pdf}{CReAM}, and \href{https://www.cgdev.org/publication/migration-rise-paradigm-decline-last-half-century-global-mobility}{CGD}}$\big \rangle$ \\
+&\\[-1ex]  
+
+
+% http://doi.org/10.1111/roie.12603
+2022 & ``\href{http://doi.org/10.1111/roie.12603}{The effect of seasonal work visas on native employment: Evidence from U.S.\ farm work in the Great Recession}'', \textit{Review of International Economics}, 30 (5): 1348--1374. $\big \langle$\textit{Pre-pub.\ versions at \href{https://www.iza.org/publications/dp/10492}{IZA} and \href{}{CGD}}$\big \rangle$ \\
+&\\[-1.85ex]    %https://www.cgdev.org/publication/effect-foreign-labor-native-employment-job-specific-approach-and-application-north
+& \phantom{xxxx} $\triangleright$ Covered by the \href{https://www.washingtonpost.com/news/wonk/wp/2013/05/15/north-carolina-needed-6500-farm-workers-only-7-americans-stuck-it-out/?utm_term=.4ad1c2307e35}{\it Washington Post} (\href{https://www.washingtonpost.com/lifestyle/food/in-an-immigration-crackdown-who-will-pick-our-produce/2017/03/17/cc1c6df4-0a5d-11e7-93dc-00f9bdd74ed1_story.html}{bis}), \href{http://fortune.com/2018/06/18/immigration-policy-farm-labor-shortage}{\it Fortune}, \href{http://www.newsobserver.com/news/business/article160086719.html}{\it News \& Observer} \\[+.25ex]
+& \phantom{xxxx} $\triangleright$ Referenced in \href{https://www.gpo.gov/fdsys/pkg/CREC-2018-06-20/html/CREC-2018-06-20-pt1-PgH5358.htm}{U.S.\ Congress debate} (\href{https://www.c-span.org/video/?c4744783/russell}{video}) \\
+&\\[-1ex]
+
+2022 & ``\href{https://doi.org/10.1002/app5.355}{A Pacific Skills Visa: Improving Opportunities for Skilled Migration Throughout the Pacific Region}'', \textit{Asia \& the Pacific Policy Studies}, 9 (3): 430--446 (with Satish Chand and Helen Dempster).  $\big \langle$\textit{Pre-pub.\ version at \href{https://www.cgdev.org/publication/pacific-skills-visa-improving-opportunities-skilled-migration-throughout-pacific-region}{CGD} and \href{https://www.iza.org/publications/pp/183}{IZA}}$\big \rangle$\\
+&\\[-1ex]
+
+2021 & ``\href{https://doi.org/10.1016/j.jue.2021.103355}{Violence, development, and migration waves: Evidence from Central American child migrant apprehensions}'', \textit{Journal of Urban Economics}, 124 (July): 103355.  $\big \langle$\textit{Pre-pub.\ versions at \href{https://www.iza.org/publications/dp/10928}{IZA} and \href{https://www.cgdev.org/publication/violence-development-and-migration-waves-evidence-central-american-child-migrant}{CGD}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx} \begin{minipage}{5in}$\triangleright$ Covered by \href{https://www.newyorker.com/magazine/2019/06/03/the-challenge-at-the-border-shows-no-signs-of-abating}{\it New Yorker}; \href{https://www.washingtonpost.com/news/monkey-cage/wp/2018/06/29/why-are-so-many-children-coming-to-the-u-s-from-central-america-in-the-first-place/}{\it Washington Post} (\href{https://www.washingtonpost.com/news/world/wp/2019/04/19/feature/this-school-aims-to-keep-young-guatemalans-from-migrating-they-dont-know-its-funded-by-the-u-s-government/?utm_term=.aa5a571bd400}{bis}); \href{https://blogs.wsj.com/economics/2017/07/27/violence-can-be-as-powerful-as-economics-in-driving-immigration/}{\it Wall Street Journal}; \href{https://www.theatlantic.com/ideas/archive/2019/04/beto-orourke-has-way-out-trumps-immigration-trap/586201/}{\it The Atlantic}; \href{http://prospect.org/article/other-imperiled-immigrants}{\it American Prospect}; \href{https://www.forbes.com/sites/stuartanderson/2018/05/24/reagan-versus-trump-on-the-free-movement-of-people}{\it Forbes}; \href{http://www.politifact.com/truth-o-meter/article/2018/jun/29/does-america-face-refugee-or-immigration-problem/}{\it PolitiFact} \end{minipage} \\[+.75ex]
+  &\\[-1ex]
+
+2019 & ``\href{https://doi.org/10.1162/rest_a_00776}{The Place Premium: Bounding the Price Equivalent of Migration Barriers}'', \textit{Review of Economics and Statistics}, 101 (2): 201--213 (with Claudio Montenegro and Lant Pritchett). $\big \langle$\textit{Pre-pub.\ versions at \href{http://www.iza.org/en/webcontent/publications/papers/viewAbstract?dp_id=9789}{CGD}, \href{https://www.hks.harvard.edu/centers/cid/publications/faculty-working-papers/bounding-price-equivalent-migration-barriers}{\textit{Harvard University}}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by the \href{http://www.nytimes.com/2013/03/17/business/the-egalitarian-tradition-of-economics.html}{\it New York Times}; \href{http://www.economist.com/news/special-report/21688584-moving-around-good-young-people-governments-stand-their-way-high-hopes-meet}{\it The Economist} (\href{http://www.economist.com/news/finance-and-economics/21718873-whatever-politicians-say-world-needs-more-immigration-not-less}{bis}); \href{https://www.theatlantic.com/international/archive/2013/04/if-people-could-immigrate-anywhere-would-poverty-be-eliminated/275332/}{\it The Atlantic}; \href{https://www.axios.com/newsletters/axios-edge-11db0637-5aac-4bbe-b24b-5d48a5b8393c.html}{\it Axios}; \href{http://elpais.com/elpais/2016/02/16/planeta_futuro/1455634133_898420.html}{\it El Pa\'{i}s}; \href{https://qz.com/1624842/keeping-immigrants-out-of-us-may-be-a-trillion-dollar-mistake/}{\it Quartz}; \href{https://www.vox.com/2020/8/13/21364392/kamala-harris-immigration}{\it Vox}  \\[+.75ex]
+& \phantom{xxxx} $\triangleright$ Replication code at DOI:\href{https://doi.org/10.7910/DVN/DHZUOT}{10.7910/DVN/DHZUOT} \\
+&\\[-1ex]
+
+2019 & ``\href{https://doi.org/10.1016/j.jdeveco.2018.12.003}{The New Economic Case for Migration Restrictions: An Assessment}'', \textit{Journal of Development Economics}, 138: 153--164 (with Lant Pritchett). $\big \langle$\textit{Pre-pub.\ versions at \href{http://www.cgdev.org/publication/new-economic-case-migration-restrictions-assessment-working-paper-423}{CGD}, \href{https://www.iza.org/publications/dp/9730}{IZA}, and \href{https://www.hks.harvard.edu/centers/cid/publications/faculty-working-papers/migration-restrictions}{Harvard University}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by the \href{https://www.nytimes.com/2017/02/14/business/economy/immigration-productivity-economists.html}{\it New York Times} and \href{https://www.economist.com/briefing/2018/08/25/governments-need-better-ways-to-manage-migration}{\it The Economist} \\[+.75ex]
+& \phantom{xxxx} $\triangleright$ Replication code and data at DOI:\href{https://doi.org/10.7910/DVN/HFTDQZ}{10.7910/DVN/HFTDQZ} \\
+&\\[-1ex]
+
+2019 & ``\href{https://doi.org/10.1177/0019793918824597}{The Labor Market Effects of Refugee Waves: Reconciling Conflicting Results}'', \textit{ILR Review}, 72 (4): 818--857 (with Jennifer Hunt). $\big \langle$\href{http://www.nber.org/papers/w23433}{\textit{Pre-pub.\ version}}; \textit{Co-released with \href{https://www.cgdev.org/publication/labor-market-effects-of-refugee-waves-reconciling-conflicting-results}{CGD}, \href{http://cep.lse.ac.uk/_new/publications/abstract.asp?index=5509}{LSE}, \href{https://www.iza.org/publications/dp/10928}{IZA}, and \href{http://cepr.org/active/publications/discussion_papers/dp.php?dpno=12050}{CEPR}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx} \begin{minipage}{5in}$\triangleright$ \href{http://voxeu.org/article/refugees-have-little-effect-native-worker-wages}{Summary for VoxEU} \end{minipage} \\[+.75ex]
+& \phantom{xxxx} \begin{minipage}{5in}$\triangleright$\, Covered by \href{https://www.theatlantic.com/ideas/archive/2024/10/immigration-working-class-wages/680128/}{\it The Atlantic}, \href{https://www.npr.org/2024/06/28/1197959366/immigration-economics-mariel-boatlift}{\it NPR Planet Money}; \href{https://www.nytimes.com/2017/10/24/business/economy/immigration-jobs.html}{\it New York Times}; \href{https://www.bloomberg.com/view/articles/2017-06-16/immigrants-don-t-steal-from-americans-paychecks}{\it Bloomberg}; \href{https://www.wsj.com/articles/the-great-mariel-boatlift-experiment-1497630468}{\it Wall Street Journal}; \href{http://www.economist.com/blogs/freeexchange/2017/06/immigration-economics}{\it The Economist} (\href{https://www.economist.com/news/international/21740726-it-eases-fiscal-burden-without-hurting-locals-prospects-european-countries-should-make}{bis}); \href{https://www.washingtonpost.com/news/politics/wp/2017/08/02/a-reporter-pressed-the-white-house-for-data-thats-when-things-got-tense/?utm_term=.01472b6dda27}{\it Washington Post}; \href{https://www.cnbc.com/2024/09/28/are-immigrants-taking-jobs-from-us-workers-heres-what-economists-say.html}{CNBC}; \href{https://www.usnews.com/news/best-countries/articles/2019-04-19/history-shows-sanctuary-cities-can-thrive-with-influx-of-immigrants}{\it U.S.\ News}; \href{http://www.miaminewtimes.com/news/stephen-miller-uses-debunked-mariel-boatlift-study-to-back-trump-immigration-crackdown-9545760}{\it Miami New Times}; \href{http://www.huffingtonpost.com/entry/stephen-miller-immigration-income-inequality_us_59839665e4b041356ebed8ac}{\it Huffington Post}; \href{https://www.bloomberg.com/news/videos/2017-09-20/full-show-surveillance-09-19-video}{Bloomberg Surveillance (1:20:15)}\end{minipage} \\
+&\\[-1ex]
+
+2018 & ``\href{http://doi.org/10.1257/aer.20170765}{Immigration Restrictions as Active Labor Market Policy: Evidence from the Mexican \textit{Bracero} Exclusion}'', \textit{American Economic Review}, 108 (6): 1468--1487 (with Ethan G.\ Lewis and Hannah M.\ Postel). $\big \langle$\textit{Pre-pub.\ versions at \href{http://www.nber.org/papers/w23125}{NBER}, \href{https://www.cgdev.org/publication/immigration-restrictions-active-labor-market-policy-evidence-mexican-bracero-exclusion}{CGD}, and \href{https://www.iza.org/publications/dp/10512}{IZA}}$\big \rangle$ \\
+&\\[-1.85ex]
+& \phantom{xxxx} \begin{minipage}{5in}$\triangleright$ \href{http://voxeu.org/article/impact-immigration-barriers-native-workers}{Summary for VoxEU} \end{minipage} \\[+.75ex]
+& \phantom{xxxx} \begin{minipage}{5in}$\triangleright$ Covered by \href{https://www.nytimes.com/2017/08/03/us/politics/legal-immigration-jobs-economy.html}{\it New York Times} (\href{https://www.nytimes.com/2017/08/08/business/economy/immigrants-skills-economy-jobs.html}{bis}); \href{http://www.economist.com/news/united-states/21716055-least-it-didnt-when-america-tried-1960s-kicking-out-immigrants-doesnt-raise}{\it The Economist} (\href{https://www.economist.com/united-states/2020/02/13/immigration-to-america-is-down-wages-are-up}{bis}, \href{https://www.economist.com/finance-and-economics/2025/01/06/can-americas-economy-cope-with-mass-deportations?giftId=99a28eed-2baf-467a-a9c2-d775c0b59d86&utm_campaign=gifted_articlestata}{bis}); \href{http://blogs.wsj.com/economics/2017/02/08/what-happened-when-the-u-s-got-rid-of-guest-workers-farms-used-less-labor}{\it WSJ}; \href{http://www.seattletimes.com/business/why-deporting-undocumented-immigrants-could-slow-us-economy/}{AP}; \href{http://www.faz.net/-gqe-8vdon}{\it Frankfurter Allgemeine Zeitung}; \href{http://www.vox.com/policy-and-politics/2017/4/3/14624918/the-case-for-immigration}{Vox}; \href{https://eldiariony.com/2017/07/17/estados-unidos-redujo-la-inmigracion-legal-anteriormente-en-la-historia-los-salarios-no-subieron/}{\it El Diario}; \href{http://www.newsweek.com/where-stephen-miller-gets-immigration-and-american-jobs-so-wrong-646316}{\it Newsweek}; \href{http://www.nydailynews.com/news/politics/fmr-cnn-pundit-kayleigh-mcenany-presents-trump-real-news-article-1.3388739}{\it NY Daily News}; \href{https://www.bloomberg.com/view/articles/2017-08-10/the-pitfalls-of-cutting-low-skilled-immigration}{Bloomberg}; featured by \href{http://www.nber.org/digest/apr17/apr17.pdf}{\it NBER Digest}\end{minipage} \\[+2ex]
+& \phantom{xxxx} $\triangleright$ Replication code and data at \url{https://dataverse.harvard.edu/dataverse/bracero} \\  % 10.7910/DVN/17M4ZP
+&\\[-1ex]
+
+
+
+2018 & ``\href{http://dx.doi.org/10.1111/ecoj.12463}{Why don't remittances appear to affect growth?}'', \textit{Economic Journal}, 128 (612): F179--F209 (with David McKenzie). $\big \langle$\href{http://www.cgdev.org/publication/why-dont-remittances-appear-affect-growth-working-paper-366}{\textit{Pre-pub.\ version}}; \href{http://www-wds.worldbank.org/external/default/WDSContentServer/WDSP/IB/2014/05/06/000158349_20140506090632/Rendered/PDF/WPS6856.pdf}{\textit{Co-released with World Bank}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$  Covered by \href{http://www.economist.com/blogs/freeexchange/2014/08/remittances-and-growth}{\it The Economist}  \\
+&\\[-1ex]
+
+2018 & ``\href{http://doi.org/10.1111/padr.12184}{Deterring Emigration with Foreign Aid: An Overview of Evidence from Low-Income Countries}'', \textit{Population and Development Review}, 44 (4): 667--693 (with Hannah M.\ Postel). $\big \langle$\href{https://www.cgdev.org/publication/deterring-emigration-foreign-aid-overview-evidence-low-income-countries}{\textit{Pre-pub.\ version}}; \textit{Co-released with \href{https://glm-lic.iza.org/publications/sp/sp8/}{GLM-LIC} and \href{https://www.iza.org/publications/pp/136}{IZA}}$\big \rangle$ \\
+&\\[-1.85ex]
+& \phantom{xxxx} \begin{minipage}{5in}$\triangleright$ Covered by \href{https://www.ft.com/content/f890a9b0-0ffa-11e8-8cb6-b9ccc4c4dbbb}{\it Financial Times}; \href{https://www.nytimes.com/2020/03/05/sunday-review/democrats-immigration.html}{\it New York Times};  \href{https://www.economist.com/news/international/21740726-it-eases-fiscal-burden-without-hurting-locals-prospects-european-countries-should-make}{\it The Economist}; \href{https://www.washingtonpost.com/news/monkey-cage/wp/2018/02/22/trump-wants-to-cut-immigration-and-foreign-aid-heres-how-theyre-connected/?utm_term=.0464d67a99d3}{\it Washington Post}; \href{https://www.theguardian.com/global-development/2018/feb/12/foreign-aid-less-effective-than-expected-at-curbing-migration-study-says}{\it The Guardian}; \href{https://www.motherjones.com/politics/2019/05/what-would-it-actually-take-to-fix-the-asylum-system/}{\it Mother Jones}; \href{https://www.csmonitor.com/World/Africa/2018/1126/EU-tests-idea-in-Gambia-Would-more-opportunity-at-home-mean-fewer-migrants}{\it CS Monitor}; \href{https://www.welt.de/politik/deutschland/plus176432712/Migration-Was-macht-eine-erfolgreiche-Entwicklungshilfe-aus.html}{\it Die Welt}; \href{https://elpais.com/elpais/2018/02/19/migrados/1519040236_351494.html}{\it El Pa\'{i}s}; \href{http://www.standaard.be/cnt/dmf20180624_03578531}{\it De Standaard}; \href{http://library.cqpress.com/cqresearcher/document.php?id=cqresrre2020011700}{\it CQ Researcher}; \href{https://www.vox.com/policy-and-politics/22404000/foreign-aid-biden-central-america-migration-root-causes}{\it Vox} \end{minipage} \\
+&\\[-1ex]
+2018 & ``\href{https://doi.org/10.1086/694615}{Testing for repugnance in economic transactions: Evidence from guest work in the Gulf}'', \textit{Journal of Legal Studies}, 47 (S1): S5--S44. $\big \langle$\href{https://www.cgdev.org/publication/testing-repugnance-economic-transactions-evidence-guest-work-gulf}{\textit{Pre-pub.\ version}}; \textit{Co-released with \href{https://www.iza.org/publications/dp/11061/testing-for-repugnance-in-economic-transactions-evidence-from-guest-work-in-the-gulf}{IZA}}$\big \rangle$ \\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by the \href{https://www.washingtonpost.com/business/migrant-workers-face-worse-choices-than-building-world-cup-stadiums/2022/11/29/1f89ac3a-6ff3-11ed-867c-8ec695e4afcd_story.html}{\it Washington Post} \\
+&\\[-1ex]
+2017 & ``\href{http://dx.doi.org/10.1162/REST_a_00657}{Split Decisions: Household Finance When a Policy Discontinuity Allocates Overseas Work}'', \textit{Review of Economics and Statistics}, 99 (3); 531--543 (with Erwin R.\ Tiongson). $\big \langle$\href{http://elibrary.worldbank.org/content/workingpaper/10.1596/1813-9450-6287}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Replication code and data at DOI:\href{http://dx.doi.org/10.7910/DVN/2DO8QP}{10.7910/DVN/2DO8QP} \\
+&\\[-1ex]
+2017 & ``\href{http://dx.doi.org/10.1111/joes.12139}{The Meaning of Failed Replications: A Review and Proposal}'', \textit{Journal of Economic Surveys}, 31 (1): 326--342. $\big \langle$\href{http://www.iza.org/en/webcontent/publications/papers/viewAbstract?dp_id=9000}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1ex]
+2017 & ``\href{http://dx.doi.org/10.1186/s40175-016-0070-x}{Temporary Work Visas as U.S.-Haiti Development Cooperation: A Preliminary Impact Evaluation}'', \textit{IZA Journal of Labor \& Development}, 6: 4 (with Hannah Postel). $\big \langle$\href{http://www.cgdev.org/publication/temporary-work-visas-us-haiti-development-cooperation-preliminary-impact-evaluation}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Replication code and data at DOI:\href{http://dx.doi.org/10.7910/DVN/J6P2KT}{10.7910/DVN/J6P2KT} \\[+.75ex]
+& \phantom{xxxx} \begin{minipage}{5in}$\triangleright$ Covered by \href{http://www.economist.com/node/21715675}{\it The Economist} (\href{https://www.economist.com/blogs/democracyinamerica/2018/01/no-longer-eligible?fsrc=scn/tw/once}{bis}, \href{https://www.economist.com/open-future/2018/06/06/how-much-you-earn-depends-largely-on-where-you-live}{ter}); \href{https://www.washingtonpost.com/news/monkey-cage/wp/2018/08/07/by-ending-temporary-protected-status-for-half-a-million-people-trump-has-probably-increased-illegal-migration}{\it Washington Post}; \href{https://www.reuters.com/article/us-usa-immigration-haiti/trump-administration-bars-haitians-from-u-s-visas-for-low-skilled-work-idUSKBN1F702O}{Reuters}; \href{https://www.nbcnews.com/news/world/trump-admin-moves-bar-haitians-agricultural-seasonal-worker-visas-n838581?utm_content=buffer8f913&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer}{NBC}; \href{http://www.cnn.com/2018/01/17/politics/haiti-temporary-visas/index.html}{CNN}; \href{https://www.upi.com/Top_News/US/2018/01/17/DHS-to-bar-Haiti-from-temporary-agricultural-seasonal-worker-visas/5591516248044/}{UPI}; \href{http://www.miamiherald.com/news/nation-world/world/americas/haiti/article195248359.html}{\it Miami Herald}; \href{https://laopinion.com/2018/01/17/dhs-prohibira-que-tepesianos-de-haiti-puedan-solicitar-visas-temporales-h-2a/}{\it La Opini\'{o}n}\end{minipage}  \\
+&\\[-1ex]
+
+2016 & ``\href{https://dx.doi.org/10.1257/jep.30.1.53}{The New Role for the World Bank}'', \textit{Journal of Economic Perspectives}, 30 (1): 53--76 (with Michael Kremer). $\big \langle$\href{http://www.cgdev.org/publication/new-role-world-bank-working-paper-421}{\textit{Pre-pub.\ version}}$\big \rangle$ \\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{https://www.vox.com/future-perfect/2019/1/8/18172383/world-bank-president-resign-ngozi-okonjo-iweala}{\it Vox}  \\
+&\\[-1ex]
+2016 & ``\href{http://dx.doi.org/10.1108/IJM-07-2015-0112}{Losing Our Minds? New research directions on skilled migration and development}'', \textit{International Journal of Manpower}, 37 (7): 1227--1248. $\big \langle$\href{http://www.iza.org/en/webcontent/publications/papers/viewAbstract?dp_id=9218}{\textit{Pre-pub.\ version}}$\big \rangle$\\  % http://dx.doi.org/10.1108/IJM-07-2015-0112
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by the \href{https://www.ft.com/content/20d5c9f6-7768-11e5-a95a-27d368e1ddf7}{\it Financial Times}  \\
+&\\[-1ex]
+
+2015 & ``\href{https://doi.org/10.1186/s40173-014-0028-z}{Global Skill Partnerships: A proposal for technical training in a mobile world}'', \textit{IZA Journal of Labor Policy}, 4:2. $\big \langle$\href{http://www.cgdev.org/publication/global-skill-partnerships-proposal-technical-training-mobile-world}{\textit{Pre-pub.\ version}}$\big \rangle$  \\
+&\\[-1.85ex]
+& \phantom{xxxx} \begin{minipage}{5in}$\triangleright$ Proposal endorsed by the \href{https://refugeesmigrants.un.org/sites/default/files/sg_report_en.pdf}{UN Secretary General} and the UN \href{https://undocs.org/A/CONF.231/3}{Marrakesh Compact for Migration}, Objective 18. Covered by \href{http://www.ipsnews.net/2018/02/african-migration-europe-not-crisis-opportunity/}{Inter Press Service}; \href{https://elpais.com/elpais/2018/12/09/3500_millones/1544383216_601117.html}{\it El Pa\'{i}s} \end{minipage} \\
+&\\[-1ex]
+2015 & ``\href{http://dx.doi.org/10.1080/00220388.2015.1028537}{Skill Development and Regional Mobility:\ Lessons from the Australia-Pacific Technical College}'', \textit{Journal of Development Studies}, 51 (11): 1502--1517 (with Colum Graham and Stephen Howes). $\big \langle$\href{http://www.cgdev.org/publication/skill-development-and-regional-mobility-lessons-australia-pacific-technical-college}{\textit{Pre-pub.\ version}}$\big \rangle$  \\
+&\\[-1ex]
+2014 & ``\href{http://dx.doi.org/10.1515/jgd-2014-0015}{A case against taxes and quotas on skilled emigration}'', \textit{Journal of Globalization and Development}, 5 (1): 1--39. $\big \langle$\href{http://www.cgdev.org/publication/case-against-taxes-and-quotas-high-skill-emigration-working-paper-363}{\textit{Pre-pub.\ version}}$\big \rangle$ \\
+&\\[-1ex]
+2014 & ``\href{http://dx.doi.org/10.1016/j.worlddev.2014.05.018}{Migration and Development Research Is Moving Far Beyond Remittances}'', \textit{World Development}, 64: 121--124 (with \c{C}a\u{g}lar \"{O}zden and Hillel Rapoport). $\big \langle$\href{http://www.cgdev.org/publication/migration-and-development-research-moving-far-beyond-remittances-working-paper-365}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1ex]
+2013 & ``\href{http://dx.doi.org/10.1257/aer.103.3.198}{Why Do Programmers Earn More in Houston than Hyderabad? Evidence from Randomized Processing of U.S.\ Visas}'', \textit{American Economic Review}, Papers \& Proceedings, 103 (3): 198--202. $\big \langle$\href{http://www.cgdev.org/publication/roots-global-wage-gaps-evidence-randomized-processing-us-visas-working-paper-212}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{https://www.bloomberg.com/news/articles/2013-05-22/america-s-gift-to-rival-economies-the-absurd-h-1b-visa-cap}{\it Bloomberg} and \href{http://www.slate.com/articles/technology/technology/2013/01/high_tech_immigrant_productivity_indian_computer_programmers_earn_a_huge.html}{\it Slate}  \\
+&\\[-1ex]
+2013 & ``\href{http://dx.doi.org/10.1257/mac.5.2.152}{Blunt Instruments: Avoiding Common Pitfalls in Identifying the Causes of Economic Growth}'', \textit{American Economic Journal: Macroeconomics}, 5 (2): 152--186 (with Sami Bazzi). $\big \langle$\href{http://www.cgdev.org/publication/blunt-instruments-establishing-causes-economic-growth-working-paper-171}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1ex]
+2012 & ``\href{http://dx.doi.org/10.1111/j.1468-0297.2011.02482.x}{Counting chickens when they hatch: Timing and the effects of aid on growth}'', \textit{Economic Journal}, 122 (561), 590--617 (with Steven Radelet, Rikhil Bhavnani, and Sami Bazzi).  $\big \langle$\href{http://www.cgdev.org/publication/counting-chickens-when-they-hatch-timing-and-effects-aid-growth-working-paper-44}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ \textit{Paper awarded the \href{https://www.res.org.uk/res-prizes-and-awards/royal-economic-society-prize.html}{Royal Economic Society Prize}} \\
+% & \phantom{xxxx} $\cdot$ Winner of the \href{http://www.res.org.uk/view/RESprizeEconomic.html}{Royal Economic Society prize}, best \textit{EJ} paper of 2012.\\
+&\\[-1ex]
+2012 & ``\href{http://dx.doi.org/10.1017/S021261091100019X}{Why were Latin America's tariffs so much higher than Asia's before 1950?}'', \textit{Journal of Iberian and Latin American Economic History}, 30 (1): 12--39 (with Jeffrey G. Williamson). $\big \langle$\href{http://scholar.harvard.edu/jwilliamson/publications/closed-jaguar-open-dragon-comparing-tariffs-latin-america-and-asia-world}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1ex]
+2011 & ``\href{http://doi.org/10.1257/jep.25.3.83}{Economics and Emigration: Trillion-Dollar Bills on the Sidewalk?}'', \textit{Journal of Economic Perspectives}, 25 (3): 83--106. $\big \langle$\href{http://www.cgdev.org/publication/economics-and-emigration-trillion-dollar-bills-sidewalk-working-paper-264}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx}\begin{minipage}{5in} $\triangleright$ Covered by the \href{https://www.newyorker.com/magazine/2023/06/12/immigration-economy-book-reviews}{\it New Yorker}; \href{https://www.nytimes.com/2017/02/07/business/economy/restricting-immigration-would-make-america-smaller-not-greater.html}{\it New York Times}; \href{http://www.economist.com/node/21528433}{\it The Economist} (\href{https://www.economist.com/news/world-if/21724907-yes-it-would-be-disruptive-potential-gains-are-so-vast-objectors-could-be-bribed}{bis}, \href{https://www.economist.com/leaders/2023/12/20/how-to-detoxify-the-politics-of-migration}{bis}); \href{http://fortune.com/2016/04/17/immigration-open-borders/}{\it Fortune}; \href{http://www.forbes.com/sites/artcarden/2013/09/06/what-you-dont-know-about-immigration-can-hurt-you/#12781dfa5883}{\it Forbes} (\href{https://www.forbes.com/sites/artcarden/2018/10/19/are-we-serious-about-reducing-poverty-then-we-need-to-welcome-immigrants/#51765411cf25}{bis}); \href{https://www.theatlantic.com/international/archive/2013/09/232-million-people-left-their-countries-for-new-ones-where-did-they-go/279741/}{\it The Atlantic}; \href{https://www.salon.com/2018/01/12/right-wing-rhetoric-about-open-borders-is-a-big-dangerous-lie/}{\it Salon}; \href{http://www.wbur.org/hereandnow/2018/08/06/open-borders-economy-workers}{NPR}, \href{https://www.deseret.com/opinion/2024/08/01/immigration-helps-the-american-economy/}{\it Deseret News} \end{minipage} \\[+2ex]
+& \phantom{xxxx}\begin{minipage}{5in} $\triangleright$ \textit{Subject of the American Economic Association's \href{https://www.aeaweb.org/research/do-global-migration-barriers-cost-trillions.php}{inaugural \textnormal{Research Highlight}} 2015}\end{minipage} \\
+  &\\[-1ex]
+2011 & ``\href{http://dx.doi.org/10.1080/19439342.2011.587017}{When Does Rigorous Impact Evaluation Make a Difference? The Case of the Millennium Villages}'', \textit{Journal of Development Effectiveness}, 3 (3): 305--339 (with Gabriel Demombynes). $\big \langle$\href{http://www.cgdev.org/publication/when-does-rigorous-impact-evaluation-make-difference-case-millennium-villages-working}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Replication code and data at DOI:\href{http://dx.doi.org/10.7910/DVN/28146}{10.7910/DVN/28146} \\[+.75ex]
+& \phantom{xxxx} $\triangleright$ Covered by the \href{https://www.ft.com/content/692bb448-d66b-11df-81f0-00144feabdc0}{\it Financial Times}; \href{http://www.nytimes.com/2013/09/03/opinion/nocera-fighting-poverty-and-critics.html}{\it New York Times} (\href{http://www.nytimes.com/2010/03/09/world/africa/09kenya.html}{bis}); \href{http://www.economist.com/node/21541001}{\it The Economist}; \href{http://www.nature.com/news/poverty-project-opens-to-scrutiny-1.10810}{\it Nature} (\href{http://www.nature.com/news/millennium-villages-project-launches-retrospective-analysis-1.18157}{bis}); \href{https://www.dailymail.co.uk/news/article-6273693/Proof-foreign-aid-DOESNT-work-Scathing-report-reveals-11million-scheme-backed-Bono-failed.html}{\it Daily Mail}  \\ %\href{http://foreignpolicy.com/2013/06/24/does-it-take-a-village/}{\it Foreign Policy}
+&\\[-1ex]
+2008 & ``\href{http://dx.doi.org/10.1111/j.1728-4457.2008.00230.x}{Income Per Natural: Measuring Development for People rather than Places}'', \textit{Population and Development Review}, 34 (3): 395--434 (with Lant Pritchett). $\big \langle$\href{http://www.cgdev.org/publication/income-natural-measuring-development-if-people-mattered-more-places-working-paper-143}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{http://www.economist.com/blogs/democracyinamerica/2010/12/nationalist_accounting_tricks}{\it The Economist} and \href{https://www.theatlantic.com/international/archive/2013/04/if-people-could-immigrate-anywhere-would-poverty-be-eliminated/275332/}{\it The Atlantic} \\
+&\\[-1ex]
+2008 & ``\href{https://doi.org/10.1186/1478-4491-6-1}{New data on African health professionals abroad}'', \textit{Human Resources for Health}, 6:1 (with Gunilla Pettersson).\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Replication code and data at DOI:\href{http://dx.doi.org/10.7910/DVN/28161}{10.7910/DVN/28161} \\
+&\\[-1ex]
+2007 & ``\href{http://dx.doi.org/10.1016/j.worlddev.2006.08.003}{The trouble with the MDGs: Confronting expectations of aid and development success}'', \textit{World Development}, 35 (5): 735--751 (with Charles Kenny and Todd J. Moss). $\big \langle$\href{http://www.cgdev.org/publication/trouble-mdgs-confronting-expectations-aid-and-development-success-working-paper-40}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1ex]
+2007 & ``\href{http://dx.doi.org/10.1108/14468950710830527}{The ghost of 0.7\%: Origins and relevance of the international aid target}'', \textit{International Journal of Development Issues}, 6 (1): 3--25 (with Todd J. Moss). $\big \langle$\href{http://www.cgdev.org/publication/ghost-07-origins-and-relevance-international-aid-target-working-paper-68}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1ex]
+2004 & ``\href{http://dx.doi.org/10.1111/j.1468-0297.2004.00211.x}{Wealth Bias in the First Global Capital Market Boom, 1870-1913}'', \textit{Economic Journal}, 114 (495): 304--337 (with Jeffrey G. Williamson). $\big \langle$\href{http://www.cgdev.org/doc/expert%20pages/clemens/clemwillEJ04.pdf}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1ex]
+2004 & ``\href{http://dx.doi.org/10.1023/B:JOEG.0000023015.44856.a9}{Why Did the Tariff-Growth Correlation Change after 1950?}'', \textit{Journal of Economic Growth}, 9 (1): 5--46 (with Jeffrey G. Williamson). $\big \langle$\href{http://www.j-bradford-delong.net/movable_type/refs/Mozilla_Scrapbook/w9181.pdf}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1ex]
+1999 & ``\href{http://dx.doi.org/10.1093/wber/13.2.333}{Genuine Savings Rates in Developing Countries}'', \textit{World Bank Economic Review}, 13 (2): 333--356 (with Kirk Hamilton). $\big \langle$\href{http://documents.worldbank.org/curated/en/1998/08/8228234/genuine-savings-rates-developing-countries}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1ex]
+1999 & ``\href{http://dx.doi.org/10.1016/S0377-2217(98)00157-X}{Reserve Design for Species Preservation}'', \textit{European Journal of Operational Research}, 112 (2): 273--283 (with Charles R. ReVelle and Justin Williams).\\
+&\\[-1ex]
+1993 & ``\href{https://doi.org/10.1128/mcb.13.11.6897-6906.1993}{Homologous and illegitimate recombination in developing \textit{Xenopus} oocytes and eggs}'', \textit{Molecular and Cellular Biology}, 13 (11): 6897--6906 (with Chris W. Lehman, David K. Worthylake, Jonathan K. Trautman, and Dana Carroll).\\
+\end{longtable}
+
+
+
+
+\section{Papers in Progress and Under Review} 
+\begin{longtable}{L !{\VRule}  R}
+\endfirsthead
+\multicolumn{2}{l}{\helvetica \Large \hspace{-12pt} Papers in Progress and Under Review, \textit{continued}} \\ [+3.5ex] 
+%\vspace{+3mm}
+\endhead
+
+2026 & ``\href{https://www.rfberlin.com/wp-content/uploads/2026/03/26072_revised.pdf}{Immigrant-Native Wage Gaps and Immigration Tariffs: Examining the Case for an H-1B Visa Tax}'', Discussion Paper 072/26, Center for Research and Analysis of Migration, University College London. Berlin: Institute for the Economy and the Future of Work (RFBerlin). $\big \langle$\textit{Co-released with \href{https://www.iza.org/publications/dp/18435}{IZA@LISER}}$\big \rangle$\\
+&\\[-1ex]
+
+2024 & ``\href{https://www.piie.com/publications/working-papers/2024/migration-or-stagnation-aging-and-economic-growth-korea-today}{Migration or stagnation: Aging and economic growth in Korea today, the world tomorrow}'', Working Paper 24-18, Washington, DC: Peterson Institute for International Economics. $\big \langle$\textit{Co-released with \href{}{IZA} and \href{}{CGD}}$\big \rangle$\\
+&\\[-1.85ex]
+
+& \phantom{xxxx} \begin{minipage}{5in}$\triangleright$ Covered by \href{https://www.economist.com/finance-and-economics/2025/10/22/how-to-make-immigration-palatable-in-a-populist-age}{\textit{The Economist}}, \href{https://n.news.naver.com/article/277/0005466466?type=journalists}{\it Asia Business Daily} \end{minipage} \\
+&\\[-2ex]
+
+
+
+& \phantom{xxxx} \begin{minipage}{5in}$\triangleright$ Interactive: \href{https://www.piie.com/research/piie-charts/2024/korea-faces-income-losses-within-half-century-without-more-labor}{\it Korea faces income losses within half a century without more labor migration} \end{minipage} \\
+&\\[-1ex]
+
+
+
+
+2024 & ``\href{https://www.piie.com/publications/working-papers/2024/effect-lawful-crossing-unlawful-crossing-us-southwest-border}{Partial Legalization and Parallel Markets: The Effect of Lawful Crossing on Unlawful Crossing at the US Southwest Border}'', PIIE Working Paper 24-10. Washington, DC: Peterson Institute for International Economics. $\big \langle$\textit{Co-released with} \href{https://www.iza.org/publications/dp/16940}{IZA}, \href{https://www.rfberlin.com/wp-content/uploads/2024/04/24010.pdf}{CReAM/RFBerlin}, \href{https://dx.doi.org/10.2139/ssrn.4796345}{Mason Econ.}, and \href{}{CGD}$\big \rangle$\\
+&\\[-1ex]
+
+& \phantom{xxxx} \begin{minipage}{5in}$\triangleright$ Covered by \href{https://www.newyorker.com/news/the-financial-page/the-immigration-story-nobody-is-talking-about}{\it The New Yorker}, \href{https://www.piie.com/publications/working-papers/2024/effect-lawful-crossing-unlawful-crossing-us-southwest-border}{\it LA Times} \end{minipage} \\
+&\\[-1ex]
+
+
+
+
+
+
+
+
+
+
+
+
+2021 & ``\href{}{The Fiscal Effect of Immigration: Reducing Bias in Influential Estimates}'', CGD Working Paper, Washington, DC: Center for Global Development. $\big \langle$\textit{Co-released with \href{https://www.iza.org/publications/dp/15592}{IZA},  \href{https://www.cream-migration.org/publ_uploads/CDP_34_21.pdf}{CReAM} and \href{https://www.cesifo.org/node/66939}{CESifo}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{https://www.wsj.com/economy/what-do-immigrants-do-for-government-budgets-new-research-has-answers-67cfcbf6?st=gGcBKw&reflink=mobilewebshare_permalink}{\it Wall Street Journal}, \href{
+	https://www.forbes.com/sites/stuartanderson/2022/10/03/immigrants-provide-huge-benefits-to-us-taxpayers}{\it Forbes} \\
+&\\[-1ex]
+
+
+
+
+2020 & ``\href{https://www.cgdev.org/publication/global-mobility-and-threat-pandemics-evidence-three-centuries}{Global Mobility and the Threat of Pandemics: Evidence from Three Centuries}'', CGD Working Paper 560, Washington, DC: Center for Global Development (with Thomas Ginn). $\big \langle$\textit{Co-released with \href{https://www.iza.org/publications/dp/13947/}{IZA}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{https://www.bloomberg.com/news/articles/2020-12-18/study-travel-bans-won-t-thwart-the-next-pandemic?sref=Y5NzbMHF}{\it Bloomberg} \\
+&\\[-1ex]
+
+
+
+2020 & ``\href{https://www.cgdev.org/publication/emigration-life-cycle-how-development-shapes-emigration-poor-countries}{The Emigration Life Cycle: How Development Shapes Emigration from Poor Countries}'', CGD Working Paper 540, Washington, DC: Center for Global Development. $\big \langle$\textit{Co-released with \href{https://www.iza.org/publications/dp/13614/the-emigration-life-cycle-how-development-shapes-emigration-from-poor-countries}{IZA}}$\big \rangle$\\
+&\\[-1.85ex]
+
+& \phantom{xxxx} \begin{minipage}{5.2in}$\triangleright$ Cited by the \href{https://www.theguardian.com/politics/live/2023/sep/26/suella-braverman-un-refugee-convention-discrimination-uk-politics-latest-updates?CMP=share_btn_tw&page=with%3Ablock-6512eccb8f08ea4e57fca9c3#block-6512eccb8f08ea4e57fca9c3}{UK Home Secretary} and covered by \href{https://www.economist.com/middle-east-and-africa/2020/08/29/the-idea-that-aid-and-development-slow-migration-is-wrong}{\it The Economist}; \href{https://newsroom.iza.org/en/archive/research/does-economic-development-deter-workers-from-leaving-poor-countries/}{IZA Newsroom}; \href{https://decorrespondent.nl/11522/hoe-ik-in-een-wetenschappelijke-fittie-over-migratiecijfers-belandde-en-wat-ik-daarvan-leerde/502025062-a31aa0f4}{\it The Correspondent}; \href{https://foreignpolicy.com/2021/06/11/peru-electoral-earthquake/}{\it Foreign Policy}; \href{https://www.washingtonexaminer.com/news/white-house-migration-strategy-backlash-el-salvador-aid}{\it Washington Examiner}; \href{https://kehityslehti.fi/kehitys-salminen/tutkimus-vaurastuminen-nopeuttaa-siirtolaisuutta-ainakin-aluksi/}{\it Kehitys-Utveckling}  \end{minipage}  \\
+&\\[-1ex]
+
+
+
+2019 & ``\href{https://www.cgdev.org/publication/measuring-spatial-misallocation-labor-returns-india-gulf-guest-work-natural-experiment}{Measuring the Spatial Misallocation of Labor: The Returns to India-Gulf Guest Work in a Natural Experiment}'', CGD Working Paper.  $\big \langle$\textit{Co-released with \href{https://www.iza.org/publications/dp/12095/measuring-the-spatial-misallocation-of-labor-the-returns-to-india-gulf-guest-work-in-a-natural-experiment}{IZA}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{https://economictimes.indiatimes.com/nri/working-abroad/uae-great-destination-for-indians-to-get-richer-study/articleshow/46107702.cms}{\it India Times}; \href{https://www.khaleejtimes.com/nation/general/families-of-indian-workers-in-uae-leading-a-better-life-back-home}{\it Khaleej Times}; \href{https://gulfnews.com/uae/look-at-bright-side-of-migration-to-gulf---conference-hears-1.1183651}{\it Gulf News}; \href{https://www.thenational.ae/uae/indian-labourers-work-in-uae-benefits-families-study-finds-1.67283}{\it The National} \\
+
+
+
+\end{longtable}
+
+
+
+\section{Litigation Work} 
+\begin{longtable}{L !{\VRule}  R}
+	\endfirsthead
+	\multicolumn{2}{l}{\helvetica \Large \hspace{-12pt} Litigation Work, \textit{continued}} \\ [+3.5ex] 
+	%\vspace{+3mm}
+	\endhead
+	
+	
+	2026 & Lead \textit{Amicus} for `\href{https://www.supremecourt.gov/DocketPDF/25/25-1083/404374/20260414135131767_25-1083%20Economists%20Corrected%20Brief.pdf}{Brief of Economists as \textit{Amici Curiae}}', in \textit{Markwayne Mullin, Secretary, Department of Homeland Security, et al.\ v.\ Dahlia Doe, et al.} and \textit{Donald Trump v.\ Fritz Emmanuel Lesly Miot, et al.} (US Supreme Court, \href{https://www.supremecourt.gov/docket/docketfiles/html/public/25-1083.html}{Case Nos.\ 25-1083 and 25-1084}) \\
+&\\[-1.85ex]
+	& \phantom{xxxx} \begin{minipage}{5.2in} $\triangleright$ Co-signed by 19 top economists, incl.\ three Nobel laureates (Card, Acemo{\u{g}}lu, Johnson)  \end{minipage} \\
+	& \phantom{xxxx} \begin{minipage}{5.2in} $\triangleright$ Covered by \href{https://www.cnn.com/2026/04/28/economy/haitian-tps-immigrants-economy-supreme-court}{CNN} \end{minipage} \\
+		&\\[-1ex]
+	2025 & Lead \textit{Amicus} for `\href{https://www.supremecourt.gov/DocketPDF/25/25A326/378216/20250929155900602_25A326%20Amicus%20Brief.pdf}{Brief of Economists as \textit{Amici Curiae}}', in \textit{Kristi Noem, Secretary of Homeland Security et al.\ vs.\ National TPS Alliance, et al.} (US Supreme Court, \href{https://www.supremecourt.gov/docket/docketfiles/html/public/25a326.html}{Docket No.\ 25A326, Case No.\ 25-5724}) \\
+		&\\[-1.85ex]
+		
+
+		
+	& \phantom{xxxx}\begin{minipage}{5in} $\triangleright$ Also Lead \textit{Amicus} in a \href{https://www.aclunc.org/sites/default/files/2025.11.12%20%5B43%5D%20Amicus%20Brief%20ISO%20Plts-Appellees%20-%20Economists.pdf}{follow-up brief} for the US Court of Appeals, 9th Circuit (\href{https://www.courtlistener.com/docket/71328538/national-tps-alliance-et-al-v-noem-et-al/#entry-47}{25-5724, Nov.\ 12, DktEntry: 43.1}), considering an expanded immigration population \end{minipage} \\
+	&\\[-1ex]
+		
+
+	2025 & Signatory to `\href{https://storage.courtlistener.com/recap/gov.uscourts.ca9.3b7bc70c-6fcb-460e-9232-c6bc8ad16303/gov.uscourts.ca9.3b7bc70c-6fcb-460e-9232-c6bc8ad16303.106.0.pdf}{Brief of Social Science Scholars as \textit{Amici Curiae}}', in \textit{State of Washington et al.\ v.\ Donald J.\ Trump et al.} (US Court of Appeals for the Ninth Circuit, \href{https://www.courtlistener.com/docket/69561931/state-of-washington-v-trump/}{2:25-cv-00127-JCC}) \\
+	&\\[-1ex]
+	
+	
+	
+	
+			2023--2024 & Expert witness on behalf of the defendant in \textit{State of Arizona et al.\ v.\ Merrick Garland et al.} (US District Court, Western District of Louisiana, \href{https://www.courtlistener.com/docket/63271112/arizona-v-garland/}{6:22-cv-01130}) \\
+	&\\[-1.85ex]
+	& \phantom{xxxx} $\triangleright$ Case against the defendant \href{https://www.courtlistener.com/docket/63271112/235/arizona-v-garland/}{dismissed}  \\
+	&\\[-1ex]
+	
+	2020 & Declaration on behalf of the plaintiff in \textit{Human Rights First v. Chad F. Wolf et al.} (US District Court DC, \href{https://www.courtlistener.com/docket/18763091/human-rights-first-v-wolf/}{1:20-cv-03764}) \\
+	&\\[-1.85ex]
+	& \phantom{xxxx} $\triangleright$ Rule challenged by the plaintiff  enjoined by \textit{Pangea Legal Services v. DHS} (\href{https://www.courtlistener.com/docket/18763207/pangea-legal-services-v-us-department-of-homeland-security/}{3:20-cv-09253-JD})  \\
+
+	
+\end{longtable}
+
+
+
+
+\section{Regulatory Comments} 
+\begin{longtable}{L !{\VRule}  R}
+	\endfirsthead
+	\multicolumn{2}{l}{\helvetica \Large \hspace{-12pt} Regulatory Comments, \textit{continued}} \\ [+3.5ex] 
+	%\vspace{+3mm}
+	\endhead
+	
+		2026 & ``\href{https://www.regulations.gov/comment/USCIS-2025-0370-2638}{Economic Effects of Employment Authorization Reform for Asylum Applicants}'', Comment on ``Notice of Proposed Rulemaking: Employment Authorization Reform for Asylum Applicants'' (91 \textit{Fed.\ Reg.\ }8616), US Citizenship \& Immigration Services, Dept.\ of Homeland Security, Docket USCIS-2025-0370, RIN 1615-AC97 (with Amy Nice and Natalia Rigol). \\
+	&\\[-1ex]
+	
+	2025 & ``\href{https://www.regulations.gov/comment/USCIS-2025-0040-1681}{Comment challenging cost estimate provided by the Department of Homeland Security Request to Withdraw NPRM proposing a Wage Level Lottery for H-1B Selection}'', Comment on ``Notice of Proposed Rule Making Establishing a Weighted Selection Process for Registrants and Petitioners Seeking to File Cap-Subject H-1B Petitions'' (90 \textit{Fed.\ Reg.\ }45986), US Citizenship \& Immigration Services, Dept.\ of Homeland Security, Docket USCIS-2025-0040, RIN 1615-AD01 (with Jeremy Neufeld and Amy Nice). \\
+	&\\[-1ex]
+	
+		2025 & ``\href{https://www.regulations.gov/comment/ICEB-2025-0001-16581}{Very high cost to the nation in deterring international STEM graduate students and postdocs if rule
+			finalized as proposed}'', Comment on ``Establishing a Fixed Time Period of Admission and an Extension of Stay Procedure for Nonimmigrant Academic Students, Exchange Visitors, and Representatives of Foreign Information Media'' (90 \textit{Fed.\ Reg.\ }p.\ 42070 to 42115) posted Aug 28, 2025 by Immigration and Customs Enforcement Bureau, Dept.\ of Homeland Security, Docket ICEB-2025–0001, RIN 1653-AA95 (with Jeremy Neufeld and Amy Nice). \\
+	
+	
+
+	
+\end{longtable}
+
+
+
+
+\section{Books} 
+\begin{longtable}{L !{\VRule}  R}
+	\endfirsthead
+	\multicolumn{2}{l}{\Large \hspace{-12pt} Books, \textit{continued}} \\ [+3.5ex] 
+	%\vspace{+3mm}
+	\endhead
+	2027 & \href{}{\textit{The Walls of Nations}}, New York: Columbia University Press, forthcoming.\\
+	&\\[-1ex]
+	1991 & \href{https://doi.org/10.1007/978-1-4612-0961-4}{\textit{Geometry for the Classroom}}, New York: Springer-Verlag (with C.\ Herbert Clemens).\\
+	%&\\[-1ex]
+\end{longtable}
+
+ 
+
+\section{Book Chapters} 
+\begin{longtable}{L !{\VRule}  R}
+\endfirsthead
+\multicolumn{2}{l}{\helvetica \Large \hspace{-12pt} Book Chapters, \textit{continued}} \\ [+3.5ex] 
+%\vspace{+3mm}
+\endhead
+2015 & ``\href{http://dx.doi.org/10.4337/9781782548072.00010}{Does Development Reduce Migration?}'', in Robert E.\ B.\ Lucas, ed., \href{http://dx.doi.org/10.4337/9781782548072}{\textit{International Handbook on Migration and Economic Development}}, Northampton, Mass.: Edward Elgar Publishing, pp.\ 152--185. $\big \langle$\href{http://www.iza.org/en/webcontent/publications/papers/viewAbstract?dp_id=8592}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{http://www.economist.com/news/international/21709019-flow-africans-libya-italy-now-europes-worst-migration-crisis-travelling}{\it The Economist}; \href{https://www.nytimes.com/interactive/2018/06/20/business/economy/immigration-economic-impact.html}{\it New York Times}; \href{http://europeslamsitsgates.foreignpolicy.com/part-1-the-paradox-of-prosperity-mali-africa-europe-EU-migration}{\it Foreign Policy}; \href{http://www.spiegel.de/politik/ausland/einwanderung-aus-afrika-die-jungen-afrikaner-kommen-so-oder-so-a-1166274.html}{\it Der Spiegel}; \href{https://www.nzz.ch/amp/wirtschaft/migration-gehoert-zur-entwicklung-sie-laesst-sich-nicht-weg-wuenschen-ld.1398426?__twitter_impression=true}{\it Neue Z\"{u}rcher Zeitung} \\
+&\\[-1ex]
+2013 & ``\href{https://www.cambridge.org/core/books/labor-mobility/seize-the-spotlight-a-case-for-gcc-engagement-in-research-on-the-effects-of-labor-migration/5953518DA37F1B8120E5D2859C8B83D3}{Seize the Spotlight: A Case for GCC Engagement in Research on the Effects of Labor Migration}''. In \href{}{\it Labor Mobility: An Enabler for Sustainable Development}, Abu Dhabi: Emirates Center for Strategic Studies and Research, pp.\ 103--120. $\big \langle$\href{https://www.cgdev.org/publication/ft/seize-spotlight-case-gulf-cooperation-council-engagement-research-effects-labor}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+  &\\[-1ex]
+2012 & ``\href{http://www.afd.fr/webdav/shared/PORTAILS/PUBLICATIONS/EUDN/EUDN2012/interventions/Article-Michael-CLEMENS.pdf}{The Collision of Development Goals and Impact Evaluation}'', in Robert Peccoud, ed., \textit{\href{http://www.afd.fr/webdav/shared/PUBLICATIONS/RECHERCHE/Scientifiques/conferences-seminaires/05-VA-Conferences-seminaires.pdf}{Evaluation and its Discontents: Do We Learn from Experience in Development?}}, Proceedings of the 9th AFD-EUDN Conference, Paris: Agence Fran\c{c}aise de D\'{e}veloppement, pp.\ 169--197.\\
+&\\[-1ex]
+2012 & ``Income per Natural: Measuring Development for People Rather Than Places'', in Oliver Bakewell, ed., \textit{\href{http://www.e-elgar.com/bookentry_mainUS.lasso?id=14284}{Migration and Development}}, The International Library of Studies on Migration series, London: Edward Elgar Publishing, Ch. 34 (with Lant Pritchett).\\
+&\\[-1ex]
+2011 & ``\href{http://www.cgdev.org/content/publications/detail/1423717}{The Labor Mobility Agenda for Development}'', in Nancy Birdsall and Francis Fukuyama, eds. \href{http://www.worldcat.org/oclc/647976926}{\textit{New Ideas on Development after the Financial Crisis}}, Baltimore: The Johns Hopkins University Press, pp. 260--287.\\
+&\\[-1ex]
+2011 & ``\href{}{The Financial Consequences of High-Skill Emigration: Lessons from African Doctors Abroad}'', in Sonia Plaza and Dilip Ratha, eds. \textit{\href{https://documents.worldbank.org/en/publication/documents-reports/documentdetail/389011468191676942/diaspora-for-development-in-africa}{Diaspora for Development in Africa}}, Washington, DC: World Bank, pp. 165--182.\\
+&\\[-1ex]
+2011 & ``\href{http://dx.doi.org/10.1093/wber/13.2.333}{Genuine Savings Rates in Developing Countries}'', in Karl-Gustaf L\"{o}fgren and Chuan-Zhong Li, eds. \textit{\href{http://www.worldcat.org/oclc/753634085}{Green National Accounting And Sustainability}}, Northampton, MA: Edward Elgar, pp. 653--676 (with Kirk Hamilton).\\
+&\\[-1ex]
+2010 & ``\href{http://www.beloit.edu/upton/assets/Clemens.pgs.pdf}{The Biggest Idea in Development That No One Really Tried}'', in Emily Chamlee-Wright, ed., \textit{The Annual Proceedings of the Wealth and Well-Being of Nations: 2009--2010, Volume II}, Beloit, WI: Beloit College Press, pp. 25--50.\\
+&\\[-1ex]
+2006 & ``\href{http://books.google.com/books?id=fgxj34qnYgoC&pg=PA43&lpg=PA43&dq=%22Aid+and+Growth:+The+Current+Debate+and+Some+New+Evidence%22&source=bl&ots=tigX00Lexl&sig=UxByYzcRbQaIJfHgep4u18HkKA4&hl=en&ei=eAzGTIbQPILGlQfS8rED&sa=X&oi=book_result&ct=result&resnum=2&v}{Aid and Growth: The Current Debate and Some New Evidence}'', in Peter Isard, Leslie Lipschitz, Alexandros Mourmouras, and Boriana Yontcheva, eds., \textit{The Macroeconomic Management of Foreign Aid: Opportunities and Pitfalls},  Washington, DC: International Monetary Fund, pp 43--60 (with Steven Radelet and Rikhil Bhavnani).\\
+&\\[-1ex]
+2006 & ``A first look at the consequences of African health professional emigration'', in Treasury of Australia and Reserve Bank of Australia, \href{https://trove.nla.gov.au/version/42251235}{\textit{G-20 Workshop on Demographic Challenges and Migration: Sydney, 27-28 August 2005}}, Canberra: Commonwealth of Australia, pp. 195--231.\\
+&\\[-1ex]
+2003 & ``Absorptive capacity: How much is too much?'' and ``Exit: How long should the MCA commitment last?'', in Steven Radelet, \href{https://www.cgdev.org/publication/9780881323542-challenging-foreign-aid-policymakers-guide-millennium-challenge-account}{\textit{Challenging Foreign Aid: A Policymaker's Guide to the Millennium Challenge Account}}, Washington, DC: Center for Global Development (with Steven Radelet).\\
+&\\[-1ex]
+2001 & ``\href{http://www.amazon.com/Survey-Sustainable-Development-Economic-Dimensions/dp/155963863X}{Are we saving enough for the future?}'', in Jonathan M. Harris, Timothy A. Wise, Kevin P. Gallagher, and Neva R. Goodwin, eds., \textit{A Survey of Sustainable Development: Social and Economic Dimensions}, Washington, DC: Island Press, pp. 37--41 (with Kirk Hamilton).\\
+&\\[-1ex]
+1997 & ``\href{http://documents.worldbank.org/curated/en/1997/06/694748/expanding-measure-wealth-indicators-environmentally-sustainable-development}{Are we saving enough for the future?}'', in World Bank, \textit{Expanding the Measure of Wealth: Indicators of Environmentally Sustainable Development}, Environmentally Sustainable Development Studies and Monographs Series, No. 17, Washington, DC: World Bank (with Kirk Hamilton).\\
+&\\[-1ex]
+1997 & ``The Hidrovia Paraguay-Parana: A Review and Analysis of the Feasibility Studies and Environmental Assessment in the Context of Regional Development'', in Environmental Defense Fund, \href{https://searchworks.stanford.edu/view/9546269}{\textit{The Hidrovia Paraguay-Parana Navigation Project: Report of an Independent Review}}, Washington, DC: Environmental Defense Fund and Funda\c{c}\~{a}o Centro Brasileiro de Refer\^{e}ncia e Apoio Cultural/CEBRAC (with Thayer Scudder).\\
+
+\end{longtable}
+
+
+
+
+\section{Policy Writings} 
+\begin{longtable}{L !{\VRule}  R}
+\endfirsthead
+\multicolumn{2}{l}{\helvetica \Large \hspace{-12pt} Policy Writings, \textit{continued}} \\ [+3.5ex] 
+%\vspace{+3mm}
+\endhead
+
+
+2026 & ``\href{https://www.piie.com/blogs/realtime-economics/2026/economic-case-100000-tax-h-1b-visas-rests-several-errors}{The economic case for a \$100,000 tax on H-1B visas rests on several errors}'', \textit{Realtime Economics}. Washington, DC: Peterson Institute for International Economics, Mar.\ 16.  $\big \langle$\textit{Summarizing \href{https://www.rfberlin.com/network-paper/immigrant-native-wage-gaps-and-immigration-tariffs-examining-the-case-for-an-h-1b-visa-tax}{this research paper}} $\big \rangle$\\
+
+
+&\\[-1ex]
+
+
+
+2025 & ``\href{https://www.iza.org/publications/dp/18308}{From Root Causes to Shared Gains: Migration Policy for Low-Income Countries in a Labor-Scarce World}'', IZA Discussion Paper 18308. Commissioned by the International Monetary Fund. Bonn: IZA Institute of Labor Economics, Dec.\ 16.  $\big \langle$\textit{Co-released with \href{https://www.rfberlin.com/wp-content/uploads/2025/12/25152.pdf}{RFBerlin}}$\big \rangle$\\
+
+
+&\\[-1ex]
+
+
+2025 & ``\href{https://www.iza.org/publications/dp/18548}{Brain Freeze: How International Student Exclusion Will Shape the STEM Workforce and Economic Growth in the United States}'', IZA Discussion Paper 18548, Commissioned by the National Academies of Sciences, Engineering, and Medicine for the \href{https://doi.org/10.17226/29283}{\textit{Reimagining STEMM Graduate Education and Postdoctoral
+	Career Development} Summit}, Oct.\ 22 (with Jeremy Neufeld and Amy Nice). $\big \langle$\textit{Co-released by \href{https://nap.nationalacademies.org/resource/29283/BrainFreeze_Working_Paper_Clemens-Neufeld-Nice.pdf}{NAS}}$\big \rangle$\\
+&\\[-2.5ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{https://www.forbes.com/sites/stuartanderson/2025/11/11/new-immigration-rule-will-end-or-restrict-student-practical-training/}{\it Forbes} \\
+&\\[-1ex]
+
+
+
+
+
+2025 & ``\href{https://www.piie.com/blogs/realtime-economics/2025/new-us-curb-high-skill-immigrant-workers-ignores-evidence-its-likely}{New US curb on high-skill immigrant workers ignores evidence of its likely harms}''. PIIE Realtime Economics, Washington, DC: Peterson Institute for International Economics, Sep.\ 22.  \\
+&\\[-1ex]
+
+
+2025 & ``\href{https://www.piie.com/blogs/realtime-economics/2025/skilled-immigration-chopping-block-effects-eliminating-optional}{Skilled immigration on the chopping block? Effects of eliminating `Optional Practical Training' in the US}''. PIIE Realtime Economics, Washington, DC: Peterson Institute for International Economics, Apr.\ 8.  \\
+&\\[-1ex]
+
+2024 & ``\href{https://www.piie.com/publications/policy-briefs/2024/modernizing-us-exchange-visitor-skills-list}{Modernizing the US Exchange Visitor Skills List}''. PIIE Policy Brief, Washington, DC: Peterson Institute for International Economics, Sep.\ 5 (with William R.\ Kerr).  \\
+&\\[-1ex]
+
+
+2024 & ``\href{https://ifp.org/expelling-excellence-exchange-visitor-restrictions-on-high-skill-migrants-in-the-united-states/}{Expelling Excellence: Exchange Visitor restrictions on high-skill migrants in the United States}'', Washington, DC: Institute for Progress, Aug.\ 8 (with Jeremy Neufeld and Amy Nice). $\big \langle$\textit{Jointly released by \href{https://www.iza.org/publications/pp/214}{IZA}}$\big \rangle$ \\
+&\\[-1ex]
+
+
+
+2024 & ``\href{https://www.piie.com/blogs/realtime-economics/2024/offering-more-lawful-pathways-us-border-crossings-reduces-unlawful}{Offering more lawful pathways for US border crossings reduces unlawful crossings}'', Washington, DC: Peterson Institute for International Economics, Apr.\ 18.  \\
+&\\[-2.5ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{https://reason.com/volokh/2024/04/25/new-evidence-that-making-legal-migration-easier-reduces-illegal-border-crossing/}{\it Reason} \\
+&\\[-1ex]
+
+
+2024 & ``\href{https://www.piie.com/blogs/realtime-economics/2024/trumps-proposed-mass-deportations-would-backfire-us-workers}{Trump's proposed mass deportations would backfire on US workers}'',  Washington, DC: Peterson Institute for International Economics, Mar.\ 6.  \\
+&\\[-1.85ex]
+& \phantom{xxxx} \begin{minipage}{5.2in}$\triangleright$ Covered by \href{https://www.ft.com/content/b35bb6a7-6229-426e-9a0b-8cdc74d334cc}{\it Financial Times}, \href{https://www.economist.com/finance-and-economics/2025/01/06/can-americas-economy-cope-with-mass-deportations?giftId=99a28eed-2baf-467a-a9c2-d775c0b59d86&utm_campaign=gifted_article}{\it The Economist}, \href{https://www.usnews.com/news/economy/articles/2024-03-15/what-the-u-s-economy-would-look-like-in-a-second-trump-term}{\it US News \& World Report} [\href{https://www.usnews.com/opinion/articles/2024-07-26/trumps-immigration-plan-an-economic-loser-and-job-killer}{\it bis}], \href{https://reason.com/volokh/2024/03/10/mass-deportations-of-immigrants-destroy-more-native-born-american-jobs-than-they-create/}{\it Reason} [\href{https://reason.com/2024/11/05/study-mass-deportation-could-put-28-million-people-at-risk-of-family-separation}{\it bis}], \href{https://www.telemundo.com/noticias/noticias-telemundo/elecciones-estados-unidos-2024/convencion-republicana-trump-economia-inflacion-aranceles-impuestos-rcna161919}{\it Telemundo}, \href{https://www.forbes.com/sites/stuartanderson/2024/05/12/economists-criticize-trump-plan-to-deport-longtime-immigrant-workers/?sh=55cc537b5894}{\it Forbes} [\href{https://www.forbes.com/sites/stuartanderson/2024/09/08/trump-trade-and-immigration-policies-spell-higher-prices-less-growth/}{\it bis}, \href{https://www.forbes.com/sites/stuartanderson/2024/10/03/trump-immigration-plan-may-end-deportation-safeguards-for-27-million/}{\it bis}], \href{https://washingtonmonthly.com/2024/05/21/trumps-plans-for-mass-deportation-would-be-an-economic-disaster/}{\it Washington Monthly}, \href{https://www.motherjones.com/politics/2024/08/trump-mass-deportation-plan-immigration-border-patrol-ice-dhs-migrants-undocumented/}{Mother Jones}, \href{https://www.scrippsnews.com/politics/immigration/whas-the-potential-dollar-cost-of-trumps-immigration-policies}{Scripps News}, \href{https://zeitung.faz.net/faz/wirtschaft/2024-11-04/0f404d9d43f9a26ce9d2269520913e5c}{Frankfurter Allgemeine Zeitung}, \href{https://www.francetvinfo.fr/monde/usa/presidentielle/donald-trump/investiture-de-donald-trump-pourquoi-l-expulsion-de-millions-de-sans-papiers-pourraient-avoir-de-lourdes-consequences_6999434.html#xtor=CS2-765-%5Bautres%5D-}{\it FranceInfo} \end{minipage}  \\
+&\\[-1ex]
+
+
+
+2023 & ``\href{https://www.cgdev.org/blog/why-we-wont-reach-climate-migrant-protection-category-and-what-we-can-do-instead}{Why We Won't Reach a `Climate Migrant' Protection Category---And What We Can Do Instead}'',  Washington, DC: Center for Global Development, Jun.\ 8 (with Sam Huckstep).  \\
+&\\[-1.85ex]
+
+
+2023 & ``\href{https://www.cgdev.org/publication/climate-change-and-migration-omnibus-overview-policymakers-and-development}{Climate Change and Migration: An Omnibus Overview for Policymakers and Development Practitioners}'', CGD Policy Paper 292, Washington, DC: Center for Global Development, May 9 (with Sam Huckstep).  \\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{https://www.economist.com/interactive/briefing/2023/07/01/the-surprising-upside-of-climate-migration}{\it The Economist} \\
+&\\[-1ex]
+
+
+
+
+2022 & ``\href{https://www.cgdev.org/publication/do-cash-transfers-deter-migration}{Do Cash Transfers Deter Migration?}'', CGD Policy Paper 270, Washington, DC: Center for Global Development, Oct.\ 19.  $\big \langle$\textit{Co-released with  \href{https://www.iza.org/publications/pp/191}{IZA}}$\big \rangle$ \\
+&\\[-1.85ex]
+
+2022 & ``\href{https://www.cgdev.org/blog/doing-refugee-integration-better-three-lessons-latest-research}{Doing Refugee Integration Better: Three Lessons from the Latest Research}'', Washington, DC: Center for Global Development, Oct.\ 19. \\
+&\\[-1.85ex]
+
+2022 & ``\href{https://wrmcouncil.org/publications/research-paper/pathways-for-labor-migration-from-northern-central-america-five-difficult-but-necessary-proposals/}{Pathways for Labor Migration from Northern Central America: Five Difficult but Necessary Proposals}'', \textit{North and Central American Task Force on Migration}, World Refugee and Migration Council, Jan.\ 13. $\big \langle$\textit{Co-released with \href{https://www.cgdev.org/publication/pathways-labor-migration-northern-central-america-five-difficult-necessary-proposals}{CGD} and \href{}{IZA}}$\big \rangle$ \\
+&\\[-1.85ex]
+
+
+2021 & ``\href{https://devpolicy.org/australia-needs-more-pacific-mid-skill-migration-20211015/}{Australia needs more Pacific mid-skill migration: Here's how to facilitate it}'', \textit{DevPolicy}, Oct.\ 15 (with Satish Chand and Helen Dempster). \\
+&\\[-1.85ex]
+
+2021 & ``\href{https://www.cgdev.org/publication/expanding-legal-migration-pathways-nigeria-europe-brain-drain-brain-gain}{Expanding Legal Migration Pathways from Nigeria to Europe: From Brain Drain to Brain Gain}'', World Bank-CGD report, Jul.\ 19 (with Samik Adhikari, Helen Dempster, and Nkechi Linda Ekeator). $\big \langle$\textit{Jointly released by \href{https://documents.worldbank.org/en/publication/documents-reports/documentdetail/873041626087072895/expanding-legal-migration-pathways-from-nigeria-to-europe-from-brain-drain-to-brain-gain}{World Bank}}$\big \rangle$\\
+&\\[-1.85ex]
+
+& \phantom{xxxx} $\triangleright$ Policy brief: ``\href{https://www.cgdev.org/publication/why-europe-should-build-legal-migration-pathways-nigeria}{Why Europe Should Build Legal Migration Pathways with Nigeria}'' \\
+&\\[-2.5ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{https://www.handelsblatt.com/politik/international/fachkraeftemangel-weltbank-wirbt-fuer-fachkraefte-pakt/27435766.html}{\it Handelsblatt}, \href{https://www.thisdaylive.com/index.php/2021/11/04/world-bank-high-unemployment-forcing-educated-nigerian-youths-to-migrate/}{\it This Day} \\
+&\\[-1ex]
+
+
+
+
+2021 & ``\href{https://www.foreignaffairs.com/articles/central-america-caribbean/2021-06-07/real-root-causes-americas-border-crisis}{The Real Root Causes of America’s Border Crisis: And How Biden Can Address Them}'', \textit{Foreign Affairs}, Jun.\ 7.\\
+&\\[-1.85ex]
+
+2021 & ``\href{https://www.cgdev.org/publication/ethical-recruitment-health-workers-using-bilateral-cooperation-fulfill-world-health}{Ethical Recruitment of Health Workers: Using Bilateral Cooperation to Fulfill the World Health Organization’s Global Code of Practice}'', CGD Policy Paper 212 (with Helen Dempster), May\ 27.\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{https://www.nytimes.com/2022/01/24/health/covid-health-worker-immigration.html}{\it New York Times} \\
+&\\[-1ex]
+
+2021 & ``\href{https://www.cgdev.org/blog/missing-piece-bidens-plan-central-america-bilateral-labor-agreements}{The Missing Piece in Biden's Plan for Central America: Bilateral Labor Agreements}'', CGD blog, Feb.\ 9.\\
+&\\[-1.85ex]
+
+2021 & ``\href{https://www.thinkglobalhealth.org/article/should-threat-pandemics-end-age-mobility}{Should the Threat of Pandemics End the Age of Mobility?}'', \textit{Think Global Health}, Jan.\ 28 (with Thomas Ginn).\\
+&\\[-1.85ex]
+
+2020 & ``\href{https://publications.iom.int/books/migration-policy-practice-vol-x-number-4-september-december-2020}{How economic development shapes migration: Facing the emigration life cycle}'', \textit{Migration Policy Practice}, 10 (4): 31--34 (with Cassandra Zimmer).\\
+&\\[-1.85ex]
+
+
+
+2020 & ``\href{https://www.cgdev.org/blog/restricting-mobility-will-not-stop-next-pandemic}{Restricting Mobility Will Not Stop the Next Pandemic}'', CGD Commentary and Analysis, Dec.\ 10 (with Thomas Ginn and Reva Resstack).\\
+&\\[-1.85ex]
+
+
+2020 & ``\href{https://www.cgdev.org/publication/harnessing-northern-triangle-migration-mutual-benefit}{Harnessing Northern Triangle Migration for Mutual Benefit}'', \textit{White House and the World Policy Brief}, Dec.\ 3 (with Reva Resstack and Cassandra Zimmer).\\
+&\\[-1.85ex]
+
+
+2020 & ``\href{https://voxdev.org/topic/labour-markets-migration/how-economic-development-shapes-emigration}{How economic development shapes emigration}'', \textit{VoxDev} (commissioned), Sep.\ 21.\\
+&\\[-1.85ex]
+
+
+2020 & ``\href{https://www.cgdev.org/blog/emigration-rises-along-economic-development-aid-agencies-should-face-not-fear-it}{Emigration Rises Along with Economic Development. Aid Agencies Should Face This, but Not Fear It}'', CGD blog, Aug.\ 18.\\
+&\\[-1.85ex]
+
+
+2020 & ``\href{https://www.ispionline.it/sites/default/files/pubblicazioni/ispi_futureofmigration_web.pdf#page=62}{The Future of Legal Migration: Labour Migration Pathways Between Europe and Africa}'', in Matteo Villa, ed., \href{https://www.ispionline.it/it/pubblicazione/future-migration-europe-25214}{\it The Future of Migration to Europe}, Milan: ISPI Istituto per gli Studi di Politica Internazionale (with Helen Dempster and Katelyn Gough). \\
+&\\[-1.85ex]
+
+2020 & ``\href{https://doi.org/10.1111/dpr.12471}{Migration and household finances: How a different framing can improve thinking about migration}'', \textit{Development Policy Review}, 38 (1): 3--27 (with Timothy N.\ Ogden). $\big \langle$\textit{Pre-pub.\ version at \href{https://www.cgdev.org/publication/migration-strategy-household-finance-research-agenda-remittances-payments-and}{CGD}}$\big \rangle$\\
+&\\[-1.85ex]
+
+
+2020 & ``\href{https://www.cato.org/publications/publications/chapter-3-shared-border-shared-future-us-mexican-bilateral-worker}{Shared Border, Shared Future: A U.S.-Mexican Bilateral Worker Agreement}'', in Alex Nowrasteh and David J.\ Bier, eds., \textit{12 New Immigration Ideas for the 21st Century}, Washington, DC: Cato Institute.\\
+&\\[-1.85ex]
+
+
+2019 & ``\href{https://www.cgdev.org/blog/three-facts-you-havent-heard-much-about-are-keys-better-policy-toward-central-america}{Three Facts You Haven't Heard Much About Are Keys to Better Policy Toward Central America}'', CGD blog, Nov.\ 1 (with Jimmy Graham).\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{https://www.motherjones.com/politics/2019/12/theres-an-alternative-to-border-walls-let-people-get-on-airplanes/}{\it Mother Jones} \\
+&\\[-1ex]
+2019 & ``\href{https://www.cgdev.org/publication/promoting-new-kinds-legal-labour-migration-pathways-between-europe-and-africa}{Promoting New Kinds of Legal Labour Migration Pathways Between Europe and Africa}'', CGD Policy Brief (with Helen Dempster and Katelyn Gough). \\
+&\\[-1.85ex]
+2019 & ``\href{https://www.cgdev.org/blog/president-has-mostly-wiped-out-us-refugee-resettlement-other-countries-arent-picking-slack}{The President Has Mostly Wiped out US Refugee Resettlement. Other Countries Aren't Picking up the Slack}'', CGD blog, Feb.\ 6.\\
+&\\[-1ex]
+2019 & ``\href{https://www.politicaexterior.com/articulos/politica-exterior/la-migracion-lo-hacemos/}{La migraci\'{o}n es lo que hacemos de ella}'', \textit{Pol\'{i}tica Exterior}, No.\ 187. Jan./Feb.\ (with Cindy Huang, Jimmy Graham, and Kate Gough).\\
+&\\[-1ex]
+2018 & ``\href{https://www.cgdev.org/publication/tool-implement-global-compact-migration-ten-key-steps-building-global-skill-partnerships}{A Tool to Implement the Global Compact for Migration: Ten Key Steps for Building Global Skill Partnerships}'', CGD Brief, Dec.\ 4.\\
+&\\[-1ex]
+2018 & ``\href{http://gmdac.iom.int/mpp-3}{Migration as a form of development: New kinds of regulations to create shared benefits}'', {\it Migration Policy Practice}, 8 (3): 6--11.\\
+&\\[-1ex]
+2018 & ``\href{https://www.cgdev.org/publication/economic-and-fiscal-effects-granting-refugees-formal-labor-market-access}{The Economic and Fiscal Effects of Granting Refugees Formal Labor Market Access}'', CGD Working Paper 496 (with Cindy Huang and Jimmy Graham).\\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{https://www.politico.com/newsletters/morning-shift/2018/10/15/can-dems-deliver-373673}{\it Politico}, \href{https://apolitical.co/solution_article/banning-refugees-working-means-they-drive-down-wages-more-not-less/}{\it Apolitical} \\
+&\\[-1ex]
+2018 & ``\href{https://apolitical.co/solution_article/countries-should-train-migrants-coming-to-work-before-they-arrive/}{Countries should train migrants coming to work---before they arrive}'', {\it Apolitical}, June~29 (with Kate Gough).\\
+&\\[-1ex]
+2018 & ``\href{https://www.cgdev.org/publication/migration-what-you-make-it-seven-policy-decisions-turned-challenges-opportunities}{Migration Is What You Make It: Seven Policy Decisions that Turned Challenges into Opportunities}'', CGD Note, May~30 (with Cindy Huang, Jimmy Graham, and Kate Gough).\\
+&\\[-1ex]
+2018 & ``\href{https://www.cgdev.org/publication/can-development-assistance-deter-emigration}{Can Development Assistance Deter Emigration?}'', CGD Policy Brief, Feb.~12 (with Hannah Postel). \\
+&\\[-1ex]
+2018 & ``\href{https://www.newsdeeply.com/refugees/community/2018/01/25/the-best-ideas-for-making-migration-work}{The Best Ideas for Making Migration Work}'', \textit{Refugees Deeply}, Jan.\ 25 (with Katelyn Gough). \\
+&\\[-1ex]
+2017 & ``\href{http://www.un.org/en/development/desa/population/migration/publications/technicalpapers/docs/TP2017-8.pdf}{Migration is a Form of Development: The Need for Innovation to Regulate Migration for Mutual Benefit}'', Technical Paper No.\ 2017/8, UN Department of Economic and Social Affairs, Population Division. New York: United Nations. \\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{http://agendapublica.elperiodico.com/si-la-inmigracion-es-una-oportunidad/}{\it El Peri\'{o}dico} \\
+&\\[-1ex]
+2017 & ``\href{https://warontherocks.com/2017/11/regional-security-means-border-security-new-data-central-american-children-flee-united-states/}{Regional Security Means Border Security: New Data on Why Central American Children Flee to the United States }'', {\it War on the Rocks}, Texas National Security Network, 30 November. \\
+&\\[-1ex]
+2017 & ``\href{https://www.weforum.org/agenda/2017/11/migrants-will-keep-coming-we-should-train-them-first-skills-to-thrive/}{Migrants will keep coming. We should give them the skills they need to thrive}'', {World Economic Forum {\it Agenda}}, 15 November. \\
+&\\[-1ex]
+
+2017 & ``\href{https://www.cgdev.org/sites/default/files/need-bilateral-labor-agreement-between-us-and-mexico-english-lang.pdf}{The Need for a Bilateral Labor Agreement Between the US and Mexico, and the Responsibility for Leadership}'', Keynote speech at the conference \href{http://migdep.colmex.mx/actividades/que-hacer-frente-a-la-crisis-migratoria.html}{\it ?`Qu\'{e} hacer frente a la crisis migratoria? Nuevas visiones y propuestas de acci\'{o}n}, Universidad Nacional Aut\'{o}noma de M\'{e}xico, Mexico City, jointly sponsored by Colmex and CIDE, 23 October. $\big \langle$\href{https://www.cgdev.org/sites/default/files/need-bilateral-labor-agreement-between-us-and-mexico-spanish-lang.pdf}{\textit{En espa\~{n}ol}}$\big \rangle$ \\
+&\\[-1ex]
+
+2017 & ``\href{http://cep.lse.ac.uk/centrepiece/abstract.asp?index=5623}{The labour market impact of refugee waves}'', {\it CentrePiece} 22 (3, October): 26--28. London: Centre for Economic Performance, London School of Economics (with Jennifer Hunt). \\
+&\\[-1ex]
+2017 & ``\href{http://blogs.lse.ac.uk/usappblog/2017/10/20/the-economic-effects-of-refugees-are-largely-down-to-decisions-made-by-the-countries-which-take-them/}{The economic effects of refugees are largely down to decisions made by the countries which take them}'', {\it American Politics and Policy} blog, LSE United States Centre, Oct.\ 20. \\
+&\\[-1ex]
+2017 & ``\href{https://www.cgdev.org/publication/global-skill-partnerships-proposal-technical-training-in-mobile-world-brief}{Global Skill Partnerships: A Proposal for Technical Training in a Mobile World}'', CGD Policy Brief, Oct.\ 11. \\
+&\\[-1ex]
+2017 & ``\href{https://www.cgdev.org/publication/global-skill-partnerships-proposal-technical-training-settings-forced-displacement}{Global Skill Partnerships: A Proposal for Technical Training in Settings of Forced Displacement}'', CGD Policy Brief, Oct.\ 11 (with Katelyn Gough). \\
+&\\[-1ex]
+2017 & ``\href{https://www.cgdev.org/publication/foreign-policy-migration-policy-lessons-drivers-central-american-child-migration}{Foreign Policy Is Migration Policy: Lessons from the Drivers of Central American Child Migration}'', CGD Policy Brief, Sep.\ 13 (with Hannah Postel). \\
+&\\[-1ex]
+2017 & ``\href{http://americasquarterly.org/content/how-central-american-youth-test-outdated-us-immigration-system}{How Central American Youth Test Outdated U.S. Immigration Laws}'', \textit{Americas Quarterly}, Aug.\ 15. \\
+&\\[-1ex]
+2017 & ``\href{https://www.newsdeeply.com/refugees/community/2017/08/08/the-real-economic-cost-of-accepting-refugees}{The Real Economic Cost of Accepting Refugees}'', \textit{Refugees Deeply}, Aug.\ 8. \\
+&\\[-1ex]
+2017 & ``\href{https://www.vox.com/2017/8/3/16090042/immigration-reform-donald-trump-stephen-miller}{Trump says banning immigrants helps US workers. A leading economist says he's wrong}'', \textit{Vox.com}, Aug.\ 3. \\
+&\\[-1ex]
+2017 & ``\href{https://www.vox.com/the-big-idea/2017/6/23/15855342/immigrants-wages-trump-economics-mariel-boatlift-hispanic-cuban}{The debate over the Mariel boatlift, economics' most famous immigration controversy, explained}'', \textit{Vox.com}, Jun.\ 23. \\
+&\\[-1ex]
+2017 & ``\href{http://www.politico.com/magazine/story/2017/02/mexico-immigrant-workers-jobs-americans-braceros-history-immigration-214784}{Does Kicking Out Mexicans Create Jobs? Here's what happened the last time an American president promised to create jobs by removing Mexican immigrants}'', \textit{Politico}, Feb.\ 15.  \\
+&\\[-1ex]
+2017 & ``\href{http://www.usnews.com/news/best-countries/articles/2017-02-02/why-walling-the-us-off-from-mexico-wont-work}{Walling the U.S. Off From Mexico Won't Work}'', \textit{U.S. News \& World Report}, Feb.\ 2.  \\
+&\\[-1ex]
+2017 & ``\href{https://www.devex.com/news/opinion-don-t-despair-innovate-now-is-the-time-to-try-new-forms-of-development-cooperation-89700}{Don't despair, innovate---Now is the time to try new forms of development cooperation}'', \textit{Devex} Global Views, Feb.\ 23.  \\
+&\\[-1ex]
+2016 & \href{http://www.cgdev.org/sites/default/files/CGD-shared-border-shared-future-report-eng1.pdf}{\it Shared Border, Shared Future: A Blueprint to Regulate US-Mexico Labor Mobility}, Washington, DC: Center for Global Development (with Ernesto Zedillo and Carlos Gutierrez). $\big \langle$\href{http://www.cgdev.org/sites/default/files/CGD-shared-border-shared-future-report-es.pdf}{\textit{En espa\~{n}ol}}$\big \rangle$ \\
+&\\[-1.85ex]
+& \phantom{xxxx} \begin{minipage}{5in}$\triangleright$ Covered by the \href{https://www.nytimes.com/2016/10/26/business/economy/if-immigration-cant-be-stopped-maybe-it-can-be-managed.html}{\it New York Times}; \href{https://www.washingtonpost.com/business/the-solution-to-usborder-woes-is-no-secret/2022/07/21/31614c26-08e0-11ed-80b6-43f2bfcc6662_story.html}{\it Washington Post} [\href{https://www.washingtonpost.com/news/theworldpost/wp/2018/03/26/mexico-trump}{\it bis}]; \href{http://www.npr.org/2017/03/07/518201210/how-did-we-get-to-11-million-unauthorized-immigrants}{National Public Radio}; \href{http://www.eluniversal.com.mx/articulo/mundo/2017/07/30/requerira-eu-4-millones-de-trabajadores-mexicanos-legales}{\it El Universal}; \href{http://www.cronica.com.mx/notas/2016/984696.html}{\it La Cr\'{o}nica}\end{minipage} \\
+&\\[-1ex]
+2016 & ``\href{https://www.newsdeeply.com/refugees/community/2016/10/31/development-aid-to-deter-migration-will-do-nothing-of-the-kind}{Development Aid to Deter Migration Will Do Nothing of the Kind}'', \textit{Refugees Deeply}, Oct.\ 31. \\
+&\\[-1ex]
+2016 & ``\href{http://www.politico.eu/article/world-bank-president-elections-us-jim-yong-kim/}{World Bank's US dependency has to end: It's time to choose the institution's president based on merit rather than geopolitical considerations}'', \textit{Politico Europe}, September 13. \\
+&\\[-1ex]
+2016 & ``\href{http://www.fordfoundation.org/ideas/equals-change-blog/posts/why-today-s-migration-crisis-is-an-issue-of-global-economic-inequality}{Why today's migration crisis is an issue of global economic inequality}'', Ford Foundation \textit{Equals Change} blog, July 29. \\
+&\\[-1ex]
+2016 & ``\href{http://www.oecd.org/dev/development-posts-Global-Skill-Partnerships-A-proposal-for-technical-training-in-a-mobile-world.htm}{Global Skill Partnerships: A proposal for technical training in a mobile world}'', \textit{OECD Development Centre blog}, April 19. \\
+&\\[-1ex]
+2016 & ``\href{http://www.alliancemagazine.org/feature/time-for-philanthropists-to-get-on-board-with-migration/}{Time for philanthropists to get on board with migration}'', \textit{Alliance} magazine, March. \\
+&\\[-1ex]
+2015 & ``\href{https://www.foreignaffairs.com/articles/central-europe/2015-09-27/self-interested-approach-migration-crises}{A Self-Interested Approach to Migration Crises: Push Factors, Pull Factors, and Investing In Refugees}'', \textit{Foreign Affairs}, Sept.\ 27 (with Justin Sandefur). \\
+&\\[-1ex]
+2015 & ``\href{http://www.politicaexterior.com/articulos/politica-exterior/gestionar-la-crisis-migratoria-desde-el-interes-propio/}{Gestionar la crisis migratoria desde el inter\'{e}s propio}'', \textit{Pol\'{i}tica Exterior}, November-December (with Justin Sandefur). \\
+&\\[-1ex]
+2015 & ``\href{https://www.cgdev.org/blog/remittance-economics-101-populist-politicians}{Remittances 101 for Populist Politicians}'', \textit{Views from the Center} blog, August 24. \\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{http://www.newsweek.com/trump-mexico-border-wall-remittances-444741}{\it Newsweek} and \href{http://abcnews.go.com/Business/economic-ramifications-trumps-border-wall-proposal/story?id=38161205}{\it ABC News} \\
+&\\[-1ex]
+2015 & ``\href{http://dx.doi.org/10.15185/izawol.203}{Smart policy toward high-skill emigrants}'', \textit{IZA World of Labor} 203, November. \\
+&\\[-1ex]
+2015 & ``\href{http://www.hoover.org/research/zero-illegal-immigration-thought-experiment-time-travel}{Zero Illegal Immigration: A Thought Experiment (with Time Travel)}'', \textit{Peregrine}, Issue 1502, Hoover Institution, Oct.\ 23. \\
+&\\[-1ex]
+2015 & ``\href{http://www.huffingtonpost.com/michael-clemens/the-south-pacific-secret-to-breaking-the-poverty-cycle_b_8135780.html}{The South Pacific Secret to Breaking the Poverty Cycle}'', \textit{Huffington Post: Impact}, Sep.\ 15. \\
+&\\[-1ex]
+2015 & ``\href{https://www.cgdev.org/blog/why-its-time-drop-brain-drain-refrain}{Why It's Time to Drop the `Brain Drain' Refrain}'', \textit{CGD Blog}, Jun.\ 30. \\
+&\\[-1.85ex]
+& \phantom{xxxx} $\triangleright$ Covered by \href{https://www.forbes.com/sites/stuartanderson/2023/06/15/attending-a-top-indian-university-drives-immigration-decisions}{\it Forbes} \\
+&\\[-1ex]
+2015 & ``\href{}{Global Skill Partnerships: A Proposal for Technical Training in a Mobile World}'', in Bertelsmann Stiftung, ed., \textit{\href{https://www.bertelsmann-stiftung.de/en/publications/publication/did/a-fair-deal-on-talent-fostering-just-migration-governance/}{A Fair Deal on Talent: Fostering Just Migration Governance}}, G\"{u}tersloh: Verlag Bertelsmann Stiftung, pp.\ 297--304. \\
+&\\[-1ex]
+2015 & ``\href{http://thehill.com/blogs/congress-blog/foreign-policy/229061-in-haiti-us-rectifies-missed-opportunity-to-help}{In Haiti, U.S. rectifies missed opportunity to help}'', \textit{The Hill} Congress Blog, Jan.\ 12 (with Royce Bernstein Murray). \\
+&\\[-1ex]
+2014 & ``\href{http://www.cgdev.org/publication/who-global-code-practice-useful-guide-recruiting-health-care-professionals-lessons}{The WHO Global Code of Practice: A Useful Guide for Recruiting Health Care Professionals? Lessons from Germany and Beyond}'', CGD Essay (with Steffen Angenendt and Meiko Merda). $\big \langle$\href{http://www.swp-berlin.org/fileadmin/contents/products/aktuell/2014A25_adt_clemens_merda.pdf}{\textit{Auf Deutsch}}$\big \rangle$ \\
+&\\[-1ex]
+2014 & ``\href{http://www.foreignaffairs.com/articles/140354/michael-clemens-and-justin-sandefur/let-the-people-go}{Let the People Go: The Problem With Strict Migration Limits}'', \textit{Foreign Affairs}, 93 (1, Jan./Feb.): 152--159 (with Justin Sandefur). $\big \langle$\href{http://www.cgdev.org/publication/let-people-go-problem-strict-migration-limits}{\textit{Pre-pub.\ version}}$\big \rangle$ \\
+&\\[-1ex]
+2014 & ``\href{http://www.cgdev.org/publication/skilled-migration-mexico-trends-concerns-and-outlook}{Skilled Migration from Mexico: Trends, Concerns, and Outlook}'', CGD Essay. Washington, DC: Center for Global Development. $\big \langle$\href{http://www.cgdev.org/sites/default/files/skilled-migration-mexico-SPA.pdf}{\textit{En espa\~{n}ol}}$\big \rangle$ \\
+&\\[-1ex]
+2013 & ``\href{http://www.cgdev.org/publication/ft/time-bound-labor-access-united-states-four-way-win-middle-class-low-skill-workers-border}{Temporary Work Visas: A Four-Way Win for the Middle Class, Low-Skill Workers, Border Security, and Migrants}'', CGD Brief, April. Washington, DC: Center for Global Development (with Lant Pritchett). \\
+&\\[-1ex]
+2013 & ``\href{http://www.foreignpolicy.com/articles/2013/07/08/immigration_bill_unskilled_labor}{More Unskilled Workers, Please: The new immigration bill doesn't do nearly enough to address America's real labor shortage}'', \textit{Foreign Policy}, July 8. \\
+&\\[-1ex]
+2013 & ``\href{http://bostonreview.net/blog/what-nativists-dont-want-you-know-about-immigrants}{What Nativists Don't Want You to Know About Immigrants}'', \textit{Boston Review}, June 3. \\
+&\\[-1ex]
+2013 & ``\href{http://www.world-economics-journal.com/The%20New%20Transparency%20in%20Impact%20Evaluation.details?AID=573}{The New Transparency in Development Economics: Lessons from the Millennium Villages Controversy}'', \textit{World Economics Journal} 14 (4): 77--97 (with Gabriel Demombynes). $\big \langle$\href{http://www.cgdev.org/publication/new-transparency-development-economics-lessons-millennium-villages-controversy-working}{\textit{Pre-pub.\ version}}$\big \rangle$\\
+&\\[-1ex]
+
+
+2013 & ``\href{https://blogs.worldbank.org/arabvoices/move-highly-skilled-turning-%E2%80%9Cbrain-drain%E2%80%9D-%E2%80%9Cbrain-gain%E2%80%9D}{On the Move: The Highly Skilled (Turning `Brain Drain' into `Brain Gain')}'', World Bank Blog, October. \\
+&\\[-1ex]
+
+2013 & ``\href{http://www.migrationpolicy.org/research/what-do-we-know-about-skilled-migration-and-development}{What Do We Know About Skilled Migration and Development?}'', Policy Brief No.\ 3, September. Washington, DC: Migration Policy Institute. \\
+&\\[-1ex]
+
+2013 & ``\href{http://www.bertelsmann-stiftung.de/cps/rde/xbcr/SID-E4033984-17989626/bst/xcms_bst_dms_38739_38740_2.pdf}{The Big Picture on Global Talent: How to better compete for, and grow talent}''. Paper prepared for the Salzburg Trilogue, August 30. Bertelsmann Stiftung (with Christal Morehouse).\\
+&\\[-1ex]
+2012 & ``\href{http://dx.doi.org/10.3917/edd.264.0175}{L'affrontement entre les objectifs de d\'{e}veloppement et l'\'{e}valuation d'impact}'', \textit{Revue d'\'{e}conomie du d\'{e}veloppement}, 26 (4): 175--205.\\
+&\\[-1ex]
+2012 & ``\href{http://www.guardian.co.uk/global-development/poverty-matters/2012/aug/23/crossing-borders-escape-natural-calamities}{Crossing borders to escape natural calamities is no easy option}'', \textit{The Guardian}, Aug. 23.\\
+&\\[-1ex]
+
+2012 & ``\href{https://issuu.com/futurechallenges/docs/ges_solutions}{How the Training of Emigrant Professionals Can Be Financed by Destination Countries}'', Presentation at the Global Economic Symposium, 2012, Rio de Janeiro, October 16--17. \\
+	&\\[-1.85ex]
+	& \phantom{xxxx} $\triangleright$ {\it First public discussion of the Global Skill Parntership proposal} \\
+	&\\[-1ex]
+
+%2011 & ``\href{http://www.guardian.co.uk/global-development/poverty-matters/2011/sep/05/migration-increase-global-economy}{A world without borders makes economic sense}'', \textit{The Guardian}, Sep. 5.\\
+%&\\[-1ex]
+2011 & ``\href{http://www.bostonreview.net/BR36.3/michael_clemens_millennium_villages_project.php}{Putting solutions on trial: Impact Evaluation and the Millennium Villages Experiment in Africa}'', \textit{Boston Review}, June 16.\\
+&\\[-1ex]
+2011 & ``\href{https://taraqee.wordpress.com/2011/04/26/memo-to-the-who-blocking-health-worker-migration-is-not-the-answer/}{Memo to the WHO: Blocking health worker migration is not the answer}'', \textit{AidWatch} blog, April 26 (with Amanda Glassman).\\
+&\\[-1ex]
+2010 & ``\href{http://www.foreignpolicy.com/articles/2010/06/21/the_year_when_shrinking_was_good}{The year when shrinking was good}'', \textit{Foreign Policy}, Jun. 21.\\
+&\\[-1ex]
+2010 & ``\href{http://www.globalpost.com/dispatch/worldview/100225/haiti-us-visas}{Let Haitians come to the U.S.: The best way to help Haiti rebuild is through immigration}'', \textit{Global Post}, Feb. 26.\\
+&\\[-1ex]
+2010 & ``\href{http://www.foreignpolicy.com/articles/2010/01/27/let_them_leave?page=full}{Let them leave: Why migration is the best solution for Haiti's recovery}'', \textit{Foreign Policy}, Jan. 27.\\
+&\\[-1ex]
+2010 & ``\href{http://www.washingtonpost.com/wp-dyn/content/article/2010/01/22/AR2010012202274.html}{To help Haiti's earthquake victims, change U.S. immigration laws}'', \textit{Washington Post}, Jan. 24, p.\ B2.\\
+&\\[-1ex]
+2010 & ``\href{http://issuu.com/globalhealthcouncil/docs/gh-magazine-issue--5}{Heath Worker Migration: Disease or Symptom?}'', \textit{Global Health}, Winter issue.\\
+&\\[-1ex]
+2009 & ``\href{http://www.cgdev.org/publication/migrants-count-five-steps-toward-better-migration-data}{Migrants Count: Report of the Commission on International Migration Data for Development Research and Policy}'', Washington: Center for Global Development (with Patricia A. Santo Tomas and Lawrence H. Summers). $\big \langle$\href{http://www.cgdev.org/doc/Working%20Papers/CGD_migration-FINAL_01-19-10_ARA.pdf}{\textit{Arabic}}, \href{http://www.cgdev.org/doc/Working%20Papers/CGD_migration-FINAL_01-19-10_FR.pdf}{\textit{French}}, \href{http://www.cgdev.org/doc/Working%20Papers/CGD_migration-FINAL_01-19-10_RU.pdf}{\textit{Russian}}, \href{http://www.cgdev.org/doc/Working%20Papers/CGD_migration-FINAL_01-19-10_SP.pdf}{\textit{Spanish}}$\big \rangle$  \\
+&\\[-1ex]
+2009 & ``\href{http://hdr.undp.org/en/reports/global/hdr2009/papers/HDRP_2009_08.pdf}{Skill Flow: A fundamental reconsideration of skilled-worker migration and development}'', background paper for the \textit{Human Development Report 2009}, New York: United Nations Development Program.\\
+&\\[-1ex]
+2009 & ``\href{https://foreignpolicy.com/2009/10/22/think-again-brain-drain/}{Think Again: Brain Drain---The movement of skilled workers from poor countries to rich ones is nothing to fear. In the long run, it will benefit both.}'', {\it Foreign Policy}, Oct.\ 22 (with David McKenzie).\\
+&\\[-1ex]
+2008 & ``\href{https://www.cgdev.org/article/immigrants-are-engine-prosperity-atlanta-journal-constitution}{Immigrants are an Engine of Prosperity }'', \textit{Atlanta Journal-Constitution}, Nov.\ 27.\\
+&\\[-1ex]
+2007 & ``\href{http://www.foreignaffairs.com/articles/62849/michael-a-clemens/smart-samaritans}{Smart Samaritans: Is There a Third Way in the Development Debate?}'', \textit{Foreign Affairs}, 86 (5, Sept./Oct.): 132--140.\\
+&\\[-1ex]
+2006 & ``\href{http://www.cairn.info/article.php?ID_ARTICLE=AFCO_219_0173}{Le mythe des 0,7\% : origines et pertinence de la cible fix\'{e}e pour l'aide internationale au d\'{e}veloppement}'', \textit{Afrique Contemporaine}, 219: 173-201 (with Todd J. Moss).\\
+&\\[-1ex]
+2005 & ``\href{http://digitalcommons.wcl.american.edu/cgi/viewcontent.cgi?article=1266&context=sdlp}{The Millennium Development Goals, Aid Targets, and the Costs of Over-Expectations}'', \textit{Sustainable Development Law \& Policy}, 6 (1): 58--84 (with Charles J. Kenny and Todd J. Moss).\\
+&\\[-1ex]
+2005 & ``\href{http://www.cgdev.org/content/publications/detail/2918}{Costs and Causes of Zimbabwe's Crisis}'', CGD Note, Washington, DC: Center for Global Development (with Todd J. Moss).\\
+&\\[-1ex]
+2005 & ``\href{http://www.imf.org/external/pubs/ft/fandd/2005/09/radelet.htm}{Aid and Growth: New evidence shows that aid flows aimed at growth have produced results}'', \textit{Finance and Development}, 42 (3): 16--20 (with Steven Radelet and Rikhil Bhavnani).\\
+&\\[-1ex]
+2005 & ``\href{http://www.cgdev.org/doc/trouble_mdg_french.pdf}{Interpr\'{e}ter les OMD}'', \textit{Courrier de la Plan\`{e}te}. 76: 18--21 (with Charles Kenny and Todd J. Moss).\\
+%&\\[-1ex]
+\end{longtable}
+
+
+\section{Comments and Reviews} 
+\begin{longtable}{L !{\VRule}  R}
+\endfirsthead
+\multicolumn{2}{l}{\helvetica \Large \hspace{-12pt} Comments and Reviews, \textit{continued}} \\ [+3.5ex] 
+%\vspace{+3mm}
+\endhead
+
+2023 & \href{https://www.theunpopulist.net/p/a-landmark-study-debunks-populist}{``A Landmark Study Debunks Populist Anti-Immigrant Narratives: Review of \textit{Streets of Gold} by Abramitzky and Boustan''}, \textit{The UnPopulist}, August 3.\\
+&\\[-1ex]
+
+2017 & \href{http://doi.org/10.1111/padr.12087}{``Review of Patrick Kingsley, \textit{The New Odyssey: The Story of the Twenty-First-Century Refugee Crisis}''}, \textit{Population and Development Review}, 43 (2).\\
+&\\[-1ex]
+2015 & \href{http://www.cgdev.org/blog/mapping-worm-wars-what-public-should-take-away-scientific-debate-about-mass-deworming}{``Mapping the Worm Wars: What the Public Should Take Away from the Scientific Debate about Mass Deworming''}, Views from the Center blog, July 30 (with Justin Sandefur).\\
+&\\[-1ex]
+2013 & ``Comments on `Gender Equality and Development' by Esther Duflo'', in Justin Yifu Lin and Claudia Paz Sep\'{u}lveda, eds., \textit{\href{http://go.worldbank.org/BL99QHPVT0}{Development Challenges in a Post-crisis World}}, Annual World Bank Conference on Development Economics 2011, Washington, DC: World Bank.\\
+&\\[-1ex]
+2012 & ``\href{http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(12)60848-4/fulltext}{Concerns about the Millennium Villages project report}'', \textit{The Lancet}, 379 (9830): 1945 (with Jesse B. Bump, Gabriel Demombynes, and Lawrence Haddad). \\
+& \phantom{xxxx} $\triangleright$ \textit{This comment resulted in \href{http://dx.doi.org/10.1016/S0140-6736(12)60824-1}{a retraction} of findings in \href{http://dx.doi.org/10.1016/S0140-6736(12)60207-4}{the critiqued paper}}. \\
+&\\[-1ex]
+2012 & ``\href{http://dx.doi.org/10.3945/ajcn.111.031278}{Multisector intervention to accelerate reductions in child stunting: an independent critique of scientific method}'', \textit{American Journal of Clinical Nutrition}, 95 (3): 774--775 (with Gabriel Demombynes).\\
+&\\[-1ex]
+2009 & ``\href{http://www.imf.org/external/pubs/ft/fandd/2009/09/pdf/books.pdf}{Thesis of a rigid revivalist: Review of \textit{Dead Aid} by Dambisa Moyo}'', \textit{Finance and Development}, 46 (3): 53--54.\\
+&\\[-1ex]
+2003 & ``\href{http://www.jstor.org/stable/10.1086/377324}{Paul Streeten, \textit{Globalisation: Threat or Opportunity?}}'', \textit{Economic Development and Cultural Change}, 52 (1): 243--245.\\
+\end{longtable}
+
+
+
+\section{Other Research Papers} 
+\begin{longtable}{L !{\VRule}  R}
+\endfirsthead
+\multicolumn{2}{l}{\helvetica \Large \hspace{-12pt} Other Research Papers, \textit{continued}} \\ [+3.5ex] 
+%\vspace{+3mm}
+\endhead
+
+2011 & ``\href{https://hdl.handle.net/10419/483413}{Mobiles and mobility: The Effect of Mobile Phones on Migration in Niger}'', Proceedings of the German Development Economics Conference, Berlin 2011 No. 2 (with Jenny Aker and Christopher Ksoll).\\
+&\\[-1ex]
+
+2007 & ``\href{http://www.cgdev.org/content/publications/detail/13123}{Do visas kill? Health Effects of African Health Professional Emigration}'', CGD Working Paper 114, Washington, DC: Center for Global Development.\\
+&\\[-1ex]
+2004 & ``\href{http://www.cgdev.org/content/publications/detail/2754}{The long walk to school: Development goals in historical perspective}'', CGD Working Paper 37, Washington, DC: Center for Global Development.\\
+&\\[-1ex]
+2004 & ``Inequality, Institutions and Long-Term Growth in Colombia'', Manuscript (with William Easterly and Carlos Esteban Posada).\\
+&\\[-1ex]
+2003 & ``\href{http://papers.ssrn.com/sol3/papers.cfm?abstract_id=431740}{Who Protected and Why?  Tariffs the World Around 1870--1938}'', Harvard Institute of Economic Research Discussion Paper No.\ 2010, Dept. of Economics, Harvard University (with Christopher Blattman and Jeffrey G. Williamson).\\
+&\\[-1ex]
+2002 & ``\href{http://www.cgdev.org/content/publications/detail/2770}{World Bank Capital Neither Complements Nor Substitutes for Private Capital}'', CGD Working Paper 20, Washington, DC: Center for Global Development.\\
+&\\[-1ex]
+2002 & ``\href{http://www.cgdev.org/content/publications/detail/2771}{Do Rich Countries Invest Less in Poor Countries Than the Poor Countries Themselves?}'', CGD Working Paper 19, Washington, DC: Center for Global Development.\\
+&\\[-1ex]
+1998 & ``\href{http://documents.worldbank.org/curated/en/1998/01/442715/estimating-national-wealth-methodology-results}{Estimating National Wealth: Methodology and Results}'', Environmental Economics Series, Paper Number 57, Washington, DC: World Bank (with Arundhati Kunte, Kirk Hamilton, and John Dixon).\\
+%&\\[-1ex]
+\end{longtable}
+
+
+\section{Teaching} 
+\begin{longtable}{L !{\VRule}  R}
+	\endfirsthead
+	\multicolumn{2}{l}{\helvetica \Large \hspace{-12pt} Teaching, \textit{continued}} \\ [+3.5ex] 
+	%\vspace{+3mm}
+	\endhead
+	
+	2026 & \textbf{Short Course on the Economics of Immigration and Innovation} (PhD), Institute for Progress \\  
+&\\[-1ex]
+	
+	2023--\textit{present} & \textbf{Economic Problems and Public Policies} (Undergrad.), George Mason University \\  
+		&\\[-1ex]
+		2022 & \textbf{How Migration Policy Shapes Economies, Local and Global} (Master's), Georgetown University McCourt School of Public Policy and Walsh School of Foreign Service \\  
+	&\\[-1ex]
+	2003--2010 & \textbf{Macroeconomics} and \textbf{Thesis Advising} (Master's), Georgetown University McCourt School of Public Policy \\  
+	&\\[-1ex]
+	2005 & \textbf{Foreign Aid Effectiveness} (Ph.D.), University of Copenhagen \\  
+	&\\[-1ex]
+	2002 & Certificate of Distinction in Teaching, Derek Bok Center for Teaching \& Learning, Harvard Univ. \\  
+	&\\[-1ex]
+	2001--2002 & \textbf{Economic Development in East Asia} (Undergrad.), Harvard Univ.\ Dept. of Economics \\  
+	&\\[-1ex]
+	2001 & \textbf{Globalization and History} (Undergrad.), Harvard Univ.\ Dept. of Economics \\  
+	%&\\[-1ex]
+\end{longtable}
+
+
+\section{Education}
+\begin{longtable}{L !{\VRule} R}
+	2002 &{\bf Ph.D., economics}, Harvard University Dept.\ of Economics, Cambridge, MA \\
+	& \phantom{xxxx} \textit{$\triangleright$ NSF Graduate Research Fellowship; Derek Bok certificate of distinction in teaching} \\
+	& \phantom{xxxx} \textit{$\triangleright$ Fields: Economic history, development economics, public economics} \\
+	[+1.5ex] 1997 & {\bf M.S., econ.\ \& environmental management}, Johns Hopkins University, Baltimore, MD \\
+	& \phantom{xxxx} \textit{$\triangleright$ Abel Wolman Merit Scholarship} \\
+	[+1.5ex] 
+	1994 & {\bf B.S., engineering and applied science}, California Institute of Technology, Pasadena, CA  \\
+\end{longtable} 
+
+
+
+
+
+
+\section{Peer Reviews} 
+\begin{longtable}{L !{\VRule}  R}
+	\endfirsthead
+	\multicolumn{2}{l}{\helvetica \Large \hspace{-12pt} Peer Reviews, \textit{continued}} \\ [+3.5ex] 
+	%\vspace{+3mm}
+	\endhead
+	\phantom{xx} &
+	 Referee reports for \textit{American Economic Review}, \textit{Quarterly Journal of Economics}, \textit{Review of Economic Studies}, \textit{Review of Economics and Statistics}, \textit{Journal of the European Economic Association}, \textit{Journal of Economic Literature}, \textit{American Economic Journal: Applied Economics}, \textit{American Economic Journal: Macroeconomics}, \textit{Journal of Labor Economics}, \textit{Journal of Human Resources}, \textit{ILR Review}, \textit{Labour Economics}, \textit{Journal of Development Economics}, \textit{Science}, \textit{Science Advances}, \textit{Journal of Economic Growth}, \textit{Journal of Economic History}, \textit{Economic Development and Cultural Change}, \textit{Journal of International Economics}, \textit{World Development}, \textit{Journal of Population Economics}, \textit{Journal of Health Economics}, \textit{World Bank Economic Review}, \textit{Journal of Politics}, \textit{Scandinavian Journal of Economics}, \textit{Economic Inquiry}, \textit{Public Choice}, \textit{European Economic Review}, \textit{The Lancet}, \textit{International Migration Review}, \textit{Population and Development Review}, \textit{Journal of Globalization and Development}, \textit{Regional Science and Urban Economics}, \textit{Journal of Economic Surveys}, \textit{European Economic History Review}, \textit{Journal of Development Effectiveness}, \textit{Review of World Economics}, \textit{Journal of Iberian and Latin American History}, \textit{Journal of International Money and Finance}, \textit{Economic Notes}, National Science Foundation, World Bank Research Committee, Princeton University Press, Oxford University Press, MIT Press, Stanford University Press, Zed Books, \textit{Journal of Economics and Growth of Developing Areas}, \textit{Health Affairs}, \textit{Human Resources for Health}, \textit{Financial History Review},  \textit{Social Science \& Medicine}, \textit{Georgetown University Public Policy Review}, numerous external academic tenure reviews.\\
+	%&\\[-1ex]
+\end{longtable}
+
+
+\section{Honors} 
+\begin{longtable}{L !{\VRule}  R}
+	\endfirsthead
+	\multicolumn{2}{l}{\helvetica \Large \hspace{-12pt} Honors, \textit{continued}} \\ [+3.5ex] 
+	%\vspace{+3mm}
+	\endhead
+	%% 2013 & \href{http://www.res.org.uk/view/RESprizeEconomic.html}{Royal Economic Society prize} for best paper published in the \textit{Economic Journal} in 2012.\\
+	%% &\\[-1ex]
+	2013 & \href{https://www.cgdev.org/blog/congratulations-michael-clemens-receiving-royal-economic-society-prize}{Royal Economic Society Prize} for best paper published in the \href{https://www.res.org.uk/membership/journal-prizes.html}{\it Economic Journal} in 2012 (with co-authors Steven Radelet, Rikhil Bhavnani, and Sami Bazzi).\\
+	&\\[-1ex]
+	2010 & Invited for 15\textsuperscript{th} \href{https://www.eccb-centralbank.org/p/sir-arthur-lewis-memorial-lecture}{Sir Arthur Lewis Memorial Lecture}, Eastern Caribbean Central Bank.\\
+	&\\[-1ex]
+	2010 & Devex.com ``\href{http://www.devex.com/en/news/devex-list-of-young-aid-leaders-in-dc-is-announced/69988}{40 young leaders shaping the way international relief and development assistance are being delivered}''.\\
+	&\\[-1ex]
+	1996--2000 & National Science Foundation \href{https://www.nsfgrfp.org/}{Graduate Research Fellowship}.\\
+	%&\\[-1ex]
+\end{longtable}
+
+
+
+
+\section{Influence} 
+\begin{longtable}{L !{\VRule}  R}
+	\endfirsthead
+	\multicolumn{2}{l}{\helvetica \Large \hspace{-12pt} Influence, \textit{continued}} \\ [+3.5ex] 
+	%\vspace{+3mm}
+	\endhead
+	\textit{Research} & Academic citation statistics at: \href{http://scholar.google.com/citations?user=DdtBDnkAAAAJ}{Google Scholar} \big| \href{http://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=252418}{SSRN} \big| RePEc \href{http://citec.repec.org/p/c/pcl20.html}{IDEAS} \big| \href{http://www.researchgate.net/profile/Michael_Clemens5}{ResearchGate} \\
+	&\\[-1.4ex]
+	
+	& Invited to \href{https://www.iom.int/migration-research-leaders-syndicate}{IOM Migration Research Leaders Syndicate}, 2017 \\
+	&\\[-1.4ex]
+	
+	& \href{https://ideas.repec.org/top/top.person.alldetail10.html}{Top 0.57\% of academic economists} on RePEc IDEAS citations (398 out of 70,287 economists), for publications in the last ten years: Jan.\ 2015--Jan.\ 2025 \\
+	&\\[-1.4ex]
+	& Replication data and code: \url{https://dataverse.harvard.edu/dataverse/mclem} \\
+	&\\[-1.4ex]
+	& ``\href{https://www.newsdeeply.com/refugees/articles/2016/09/02/six-vital-voices-on-the-economics-of-migration}{Six Vital Voices on the Economics of Migration}'', by \textit{NewsDeeply} \\
+	&\\[-1ex]
+	\textit{Social media} & ``\href{https://twitter.com/conradhackett/status/864557812071968768}{20 most influential think tank experts on Twitter}, 2017'' by ESGlobal.\\
+	&\\[-1.4ex]
+	& \textit{Foreign Policy} magazine ``Who's who of the foreign policy Twitterverse'' \href{http://www.foreignpolicy.com/twitterati100?page=0,9}{2012} and \href{http://www.foreignpolicy.com/articles/2013/08/13/the_fp_twitterati_100_2013}{2013}.\\
+\end{longtable}
+
+
+
+\section{Personal} 
+\begin{longtable}{L !{\VRule}  R}
+\endfirsthead
+\multicolumn{2}{l}{\helvetica \Large \hspace{-12pt} Personal, \textit{continued}} \\ [+3.5ex] 
+%\vspace{+3mm}
+\endhead
+Languages & English (native); Spanish (advanced)\\
+& Portuguese, French, Turkish (intermediate)\\
+% Citizenship & United States \\
+\end{longtable}
+
+\vspace{12pt}
+\noindent \textit{Updated \today}
+
+\end{document}
+
