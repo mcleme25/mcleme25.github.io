@@ -67,10 +67,12 @@ h6,
 }
 
 /* Underline links in main text only on hover */
-.page__content a {
+.page__content a,
+.archive a {
   text-decoration: none;
 }
 
-.page__content a:hover {
+.page__content a:hover,
+.archive a:hover {
   text-decoration: underline;
 }
