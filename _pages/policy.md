@@ -5,7 +5,9 @@ permalink: /policy/
 author_profile: true
 ---
 
-I often advise policy makers, courts of law, and voters. A handful of my key policy writings are below, and a comprehensive list is in [my CV](/files/cv.pdf).
+I often advise policy makers, courts of law, and voters. 
+
+A handful of my key policy writings are below, and a comprehensive list is in [my CV](/files/cv.pdf).
 
 ## Selected policy writings
 

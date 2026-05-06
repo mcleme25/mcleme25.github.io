@@ -9,7 +9,7 @@ author_profile: true
 
 **2024 and 2026.** *Recent developments in immigration policy* (Mid-Career), Wharton Public Policy Certificate Program, University of Pennsylvania, Wharton School of Business.
 
-**2023–present.** *Economic Problems and Public Policies* (Undergraduate), George Mason University.
+**2023–2026.** *Economic Problems and Public Policies* (Undergraduate), George Mason University.
 
 **2022.** *How Migration Policy Shapes Economies, Local and Global* (Master's), Georgetown University McCourt School of Public Policy and Walsh School of Foreign Service.
 
