@@ -69,25 +69,24 @@ h6,
 /* Mobile-only adjustments */
 @media screen and (max-width: 768px) {
 
-  /* Make main page text slightly larger on phones */
   .page__content {
     font-size: 1.14em;
     line-height: 1.68;
   }
 
-  /* Make sidebar / author text slightly larger on phones */
   .author__content,
   .author__bio,
   .author__urls {
     font-size: 1.08em;
   }
 
-  /* Make the author/avatar image slightly larger on phones */
+  .author__avatar,
   .author__avatar img {
-    max-width: 140px;
+    width: 150px !important;
+    max-width: 150px !important;
+    height: auto !important;
   }
 
-  /* Make page title slightly larger on phones */
   .page__title {
     font-size: 1.9em;
   }
