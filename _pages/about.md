@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an economist who studies policy innovation. These days I spend my time researching the causes and effects of international migration, advising public officials on how migration can work better for everyone, and empowering future policy innovators. 
+I am an economist who studies policy innovation. These days I spend my time researching the causes and effects of international migration, advising public officials on how migration can work better for everyone, and empowering future policy leaders. 
 
 Based in Washington, DC, I serve as a Professor of Economics and founding faculty at the [School of Government & Policy](http://sgp.jhu.edu), Johns Hopkins University, and a Non-Resident Senior Fellow at the [Peterson Institute for International Economics](https://www.piie.com/experts/senior-research-staff/michael-clemens). 
 
