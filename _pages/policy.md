@@ -49,3 +49,10 @@ A handful of my key policy writings are below, and a comprehensive list is in [m
 <div style="margin: -0.7em 0 1.1em 1.5em;">
 <span style="color:#bdc1c6; margin-right:0.5em;">⟶</span>Rule challenged by the plaintiff enjoined by <em>Pangea Legal Services v. DHS</em> (<a href="https://www.courtlistener.com/docket/18763207/pangea-legal-services-v-us-department-of-homeland-security/">3:20-cv-09253-JD</a>)
 </div>
+
+<div style="line-height:0.95"><br></div>
+<center>
+
+&nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *
+
+</center>

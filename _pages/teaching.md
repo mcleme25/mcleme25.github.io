@@ -24,7 +24,7 @@ author_profile: true
 
 **2001.** *Globalization and History* (Undergraduate), Harvard University Department of Economics.
 
-<div style="line-height:0.75"><br></div>
+<div style="line-height:0.95"><br></div>
 <center>
 
 &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *

@@ -24,4 +24,9 @@ A few of my key papers are below. You can find a comprehensive list in [my CV](/
 
 "[The Fiscal Effect of Immigration: Reducing Bias in Influential Estimates](https://www.iza.org/publications/dp/15592)", IZA Discussion Paper 15592. Co-released with [CReAM](https://www.cream-migration.org/publ_uploads/CDP_34_21.pdf) and [CESifo](https://www.cesifo.org/en/publications/2021/working-paper/fiscal-effect-immigration-reducing-bias-influential-estimates).
 
+<div style="line-height:0.95"><br></div>
+<center>
 
+&nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *
+
+</center>

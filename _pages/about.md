@@ -17,3 +17,9 @@ Based in Washington, DC, I serve as a Professor of Economics and founding facult
 
 <div style="padding-left: 2em;">“<em>What distinguishes knowledge is not certainty but evidence.</em>” —&nbsp;<a href="https://www.google.com/books/edition/Critique_of_Religion_and_Philosophy/8swIKfGhcUsC">Walter&nbsp;Kaufmann</a></div>
  
+<div style="line-height:0.95"><br></div>
+<center>
+
+&nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *
+
+</center>
