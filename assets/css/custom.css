@@ -95,8 +95,3 @@ h6,
   .greedy-nav a { font-size: 1.05em; }
   .mobile-only { display: inline; }
 }
-
-/* Desktop sidebar (sidebar on the side): center the name */
-@media (min-width: 925px) {
-  .sidebar .author__name { text-align: center; }
-}
