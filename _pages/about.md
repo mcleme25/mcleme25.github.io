@@ -9,7 +9,7 @@ redirect_from:
 
 I am an economist who studies policy innovation. These days I spend my time researching the causes and effects of international migration, advising public officials on how migration can work better for everyone, and empowering future policy leaders. 
 
-Based in Washington, DC, I serve as a Professor of Economics and founding faculty at the [School of Government & Policy](http://sgp.jhu.edu), Johns Hopkins University, and a Non-Resident Senior Fellow at the [Peterson Institute for International Economics](https://www.piie.com/experts/senior-research-staff/michael-clemens). 
+Based in Washington, DC, I serve as a full professor of economics and founding faculty at the [School of Government & Policy](http://sgp.jhu.edu), Johns Hopkins University, and a Non-Resident Senior Fellow at the [Peterson Institute for International Economics](https://www.piie.com/experts/senior-research-staff/michael-clemens). 
 
  I am also a fellow at the [IZA Institute of Labor Economics](https://www.iza.org/person/4270/michael-a-clemens) at LISER in Luxembourg, an External Research Fellow at the [Centre for Research and Analysis of Migration](https://www.rfberlin.com/cream-rfberlin/) (CReAM) at [University College London](https://www.cream-migration.org/about.htm) and [RFBerlin](https://www.rfberlin.com/author/michaelclemens/), and an invited member of the Research and Policy Network on the [Political Economy of Migration](https://cepr.org/research/research-policy-networks/political-economy-migration) at the Centre for Economic Policy Research in London/Paris. 
  
