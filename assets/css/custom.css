@@ -106,3 +106,15 @@ h6,
 .archive h4 {
   margin-top: 1.4em;
 }
+
+/* Pill-style button around the "CV" nav link (sets it apart since CV is a PDF, not a tab) */
+.masthead__menu-item a[href$="cv.pdf"] {
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: 0.15em 0.7em;
+}
+
+.masthead__menu-item a[href$="cv.pdf"]:hover {
+  background: currentColor;
+  color: var(--global-bg-color);
+}
