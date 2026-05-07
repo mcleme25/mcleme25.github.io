@@ -27,6 +27,6 @@ author_profile: true
 <div style="line-height:0.75"><br></div>
 <center>
 
-\* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *
+&nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *
 
 </center>
