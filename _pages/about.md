@@ -15,5 +15,5 @@ Based in Washington, DC, I serve as a Professor of Economics and founding facult
  
  My professional home for much of my early career was the [Center for Global Development](https://www.cgdev.org/expert/michael-clemens) in Washington, DC,  where I founded the Migration & Development program and where I remain a Distinguished Non-Resident Fellow. I served from 2023–2026 as full professor with tenure in the Dept. of Economics at George Mason University. I hold a Ph.D. from the Department of Economics at Harvard University.
 
-<div style="padding-left: 2em;">"<em>What distinguishes knowledge is not certainty but evidence.</em>" —&nbsp;<a href="https://www.google.com/books/edition/Critique_of_Religion_and_Philosophy/8swIKfGhcUsC">Walter&nbsp;Kaufmann</a></div>
+<div style="padding-left: 2em;">“<em>What distinguishes knowledge is not certainty but evidence.</em>” —&nbsp;<a href="https://www.google.com/books/edition/Critique_of_Religion_and_Philosophy/8swIKfGhcUsC">Walter&nbsp;Kaufmann</a></div>
  
