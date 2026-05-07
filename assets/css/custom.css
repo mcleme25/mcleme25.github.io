@@ -61,9 +61,10 @@ h6,
   line-height: 1.475;
 }
 
-/* Slightly nicer paragraph spacing */
-.page__content p {
-  margin-bottom: 1.1em;
+/* Tighten paragraph spacing in main body content (both single + archive layouts) */
+.page__content p,
+.archive p {
+  margin-bottom: 0.7em;
 }
 
 /* Underline links in main text only on hover */
@@ -94,4 +95,14 @@ h6,
   .greedy-nav,
   .greedy-nav a { font-size: 1.05em; }
   .mobile-only { display: inline; }
+}
+
+/* Tighten the space above body headings */
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.archive h2,
+.archive h3,
+.archive h4 {
+  margin-top: 1.4em;
 }
