@@ -22,3 +22,5 @@ author_profile: true
 **2001–2002.** *Economic Development in East Asia* (Undergraduate), Harvard University Department of Economics.
 
 **2001.** *Globalization and History* (Undergraduate), Harvard University Department of Economics.
+
+---
