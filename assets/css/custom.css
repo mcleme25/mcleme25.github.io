@@ -76,3 +76,20 @@ h6,
 .archive a:hover {
   text-decoration: underline;
 }
+
+/* Mobile-only line-break helper (used inside the bio) */
+.mobile-only { display: none; }
+
+/* Mobile (phone / narrow tablet) tweaks: bigger avatar, larger name,
+   slightly larger body text and nav, vertically-centered Follow box,
+   and reveal the mobile-only line break inside the bio */
+@media (max-width: 1024px) {
+  .author__avatar { width: 72px; }
+  .sidebar .author__name { font-size: 1.25em; }
+  .author__urls-wrapper { vertical-align: middle; }
+  .page__content,
+  .archive { font-size: 1.15em; }
+  .greedy-nav,
+  .greedy-nav a { font-size: 1.05em; }
+  .mobile-only { display: inline; }
+}
