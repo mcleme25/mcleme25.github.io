@@ -17,9 +17,10 @@ author_profile: true
 
 **2005.** *Foreign Aid Effectiveness* (PhD), University of Copenhagen.
 
-**2002.** Certificate of Distinction in Teaching, Derek Bok Center for Teaching & Learning, Harvard University.
-
 **2001–2002.** *Economic Development in East Asia* (Undergraduate), Harvard University Department of Economics.
+<div style="margin: -0.8em 0 1.1em 1.5em;">
+<span style="color:#7b7f85; margin-right:0.5em;">⟶</span>Certificate of Distinction in Teaching, Derek Bok Center for Teaching & Learning, Harvard University.
+</div>
 
 **2001.** *Globalization and History* (Undergraduate), Harvard University Department of Economics.
 
