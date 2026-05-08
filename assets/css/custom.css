@@ -111,7 +111,12 @@ h6,
 .masthead__menu-item a[href$="cv.pdf"] {
   border: 1px solid #888;
   border-radius: 8px;
-  padding: 0.05em 0.7em;
+  padding: 0 0.7em;
+}
+
+/* Suppress the theme's hover-underline bar on the CV link only */
+.masthead__menu-item a[href$="cv.pdf"]::before {
+  display: none;
 }
 
 .masthead__menu-item a[href$="cv.pdf"]:hover {
