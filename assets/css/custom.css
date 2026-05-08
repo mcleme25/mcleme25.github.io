@@ -125,6 +125,12 @@ h6,
   height: 2px;
 }
 
+/* Light mode only: tint the hover bar gray so it's visible against the
+   white masthead. Dark mode keeps the theme's default color. */
+html:not([data-theme="dark"]) .greedy-nav .visible-links a::before {
+  background: #aaa;
+}
+
 .masthead__menu-item a[href$="cv.pdf"]:hover {
   background: #888;
   color: #fff;
