@@ -119,6 +119,12 @@ h6,
   display: none;
 }
 
+/* Match hover-bar thickness to the page-indicator thickness (both 2px),
+   which also makes them share the same top edge since both are bottom-aligned */
+.greedy-nav .visible-links a::before {
+  height: 2px;
+}
+
 .masthead__menu-item a[href$="cv.pdf"]:hover {
   background: #888;
   color: #fff;
