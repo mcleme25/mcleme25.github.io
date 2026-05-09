@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-**2026.** *Short Course on the Economics of Immigration and Innovation* (PhD), Institute for Progress.
+**2026.** *Short Course on the Economics of Immigration and Innovation* (PhD), Institute for Progress course on The Economics of Ideas, Science and Innovation.
 
 **2024 and 2026.** *Recent developments in immigration policy* (Mid-Career), Wharton Public Policy Certificate Program, University of Pennsylvania, Wharton School of Business.
 
