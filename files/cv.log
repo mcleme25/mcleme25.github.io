@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  6 MAY 2026 12:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  11 MAY 2026 09:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -943,11 +943,11 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [6]
 
-Package hyperref Warning: Suppressing link with empty target on input line 615.
+Package hyperref Warning: Suppressing link with empty target on input line 620.
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 773.
+Package hyperref Warning: Suppressing link with empty target on input line 778.
 
 
 
@@ -1013,9 +1013,9 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [13]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 912.
+(Font)              scaled to size 10.0pt on input line 917.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 955.
+(Font)              scaled to size 7.3pt on input line 960.
 
 ignored error: Infinite glue shrinkage found in box being split
 
@@ -1041,15 +1041,8 @@ enddocument/afterlastpage (AED): lastpage setting LastPage.
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
  ***********
-
-
-Package rerunfilecheck Warning: File `cv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv.out':
-(rerunfilecheck)             Before: 43EB757EB349A6896920F44315642B7A;1879
-(rerunfilecheck)             After:  9CCEA4EF30B5764DDEBA52D582B33434;1879.
+Package rerunfilecheck Info: File `cv.out' has not changed.
+(rerunfilecheck)             Checksum: 9CCEA4EF30B5764DDEBA52D582B33434;1879.
  ) 
 Here is how much of TeX's memory you used:
  19190 strings out of 467538
@@ -1069,10 +1062,10 @@ f-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2025/texmf-dist
 /fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/ur
 w/helvetic/uhvro8a.pfb>
-Output written on cv.pdf (15 pages, 556937 bytes).
+Output written on cv.pdf (15 pages, 557114 bytes).
 PDF statistics:
- 788 PDF objects out of 1000 (max. 8388607)
- 743 compressed objects within 8 object streams
+ 789 PDF objects out of 1000 (max. 8388607)
+ 744 compressed objects within 8 object streams
  32 named destinations out of 1000 (max. 500000)
  140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
