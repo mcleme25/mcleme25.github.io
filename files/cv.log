@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  17 MAY 2026 07:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  17 MAY 2026 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -855,11 +855,11 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 165.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 177.
+Package hyperref Warning: Suppressing link with empty target on input line 176.
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 216.
+Package hyperref Warning: Suppressing link with empty target on input line 214.
 
 
 ignored error: Infinite glue shrinkage found in box being split [1
@@ -898,11 +898,11 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [4]
 
-Package hyperref Warning: Suppressing link with empty target on input line 364.
+Package hyperref Warning: Suppressing link with empty target on input line 362.
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 381.
+Package hyperref Warning: Suppressing link with empty target on input line 379.
 
 
 ignored error: Infinite glue shrinkage found in box being split
@@ -915,18 +915,18 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [5]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 485.
+(Font)              scaled to size 14.4pt on input line 483.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 488.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 506.
+Package hyperref Warning: Suppressing link with empty target on input line 486.
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 514.
+Package hyperref Warning: Suppressing link with empty target on input line 504.
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 512.
 
 
 ignored error: Infinite glue shrinkage found in box being split
@@ -947,11 +947,11 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [7]
 
-Package hyperref Warning: Suppressing link with empty target on input line 621.
+Package hyperref Warning: Suppressing link with empty target on input line 619.
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 779.
+Package hyperref Warning: Suppressing link with empty target on input line 777.
 
 
 ignored error: Infinite glue shrinkage found in box being split
@@ -1009,9 +1009,9 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [13]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 918.
+(Font)              scaled to size 10.0pt on input line 916.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 961.
+(Font)              scaled to size 7.3pt on input line 959.
 
 ignored error: Infinite glue shrinkage found in box being split
 
@@ -1043,7 +1043,7 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  19190 strings out of 467538
  317625 string characters out of 5419545
- 887690 words of memory out of 5000000
+ 887666 words of memory out of 5000000
  47775 multiletter control sequences out of 15000+600000
  692828 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1058,7 +1058,7 @@ f-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2025/texmf-dist
 /fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/ur
 w/helvetic/uhvro8a.pfb>
-Output written on cv.pdf (15 pages, 557164 bytes).
+Output written on cv.pdf (15 pages, 557141 bytes).
 PDF statistics:
  791 PDF objects out of 1000 (max. 8388607)
  746 compressed objects within 8 object streams
