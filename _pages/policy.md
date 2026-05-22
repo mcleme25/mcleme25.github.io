@@ -19,7 +19,7 @@ A handful of my key policy writings are below, and a comprehensive list is in [m
 
 "[Shared Border, Shared Future: A Blueprint to Regulate US-Mexico Labor Mobility](http://www.cgdev.org/sites/default/files/CGD-shared-border-shared-future-report-eng1.pdf)", Washington, DC: Center for Global Development (with Ernesto Zedillo and Carlos Gutierrez). [‣En español](https://www.cgdev.org/sites/default/files/CGD-shared-border-shared-future-report-es.pdf)
 
-"[Brain Freeze: How International Student Exclusion Will Shape the STEM Workforce and Economic Growth in the United States](https://www.iza.org/publications/dp/18548)", commissioned by the National Academies of Science, Engineering, and Medicine (with Jeremy Neufeld and Amy Nice).
+"[Brain Freeze: How International Student Exclusion Will Shape the STEM Workforce and Economic Growth in the United States](https://www.iza.org/publications/dp/18548)", commissioned by the National Academies of Sciences, Engineering, and Medicine (with Jeremy Neufeld and Amy Nice).
 
 ## Court briefs and expert testimony
 
