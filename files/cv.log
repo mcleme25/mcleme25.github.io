@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  27 MAY 2026 20:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  14 JUN 2026 07:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -852,14 +852,14 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 101.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 165.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 167.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 176.
+Package hyperref Warning: Suppressing link with empty target on input line 178.
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 214.
+Package hyperref Warning: Suppressing link with empty target on input line 216.
 
 
 ignored error: Infinite glue shrinkage found in box being split [1
@@ -898,11 +898,19 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [4]
 
-Package hyperref Warning: Suppressing link with empty target on input line 362.
+Package hyperref Warning: Suppressing link with empty target on input line 360.
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 379.
+Package hyperref Warning: Suppressing link with empty target on input line 360.
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 363.
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 380.
 
 
 ignored error: Infinite glue shrinkage found in box being split
@@ -914,19 +922,12 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.0pt}.
 
 [5]
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 483.
 
-
-Package hyperref Warning: Suppressing link with empty target on input line 486.
+Package hyperref Warning: Suppressing link with empty target on input line 493.
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 504.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 512.
+Package hyperref Warning: Suppressing link with empty target on input line 501.
 
 
 ignored error: Infinite glue shrinkage found in box being split
@@ -938,6 +939,21 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.0pt}.
 
 [6]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 14.4pt on input line 526.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 529.
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 620.
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 778.
+
+
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -946,14 +962,6 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.0pt}.
 
 [7]
-
-Package hyperref Warning: Suppressing link with empty target on input line 619.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 777.
-
-
 ignored error: Infinite glue shrinkage found in box being split
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1009,9 +1017,9 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [13]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 916.
+(Font)              scaled to size 10.0pt on input line 917.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 959.
+(Font)              scaled to size 7.3pt on input line 960.
 
 ignored error: Infinite glue shrinkage found in box being split
 
@@ -1038,12 +1046,12 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
  ***********
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 9CCEA4EF30B5764DDEBA52D582B33434;1879.
+(rerunfilecheck)             Checksum: 65A24DAFC9E3C7935A4E3E587056F236;1879.
  ) 
 Here is how much of TeX's memory you used:
  19190 strings out of 467538
  317625 string characters out of 5419545
- 887680 words of memory out of 5000000
+ 888801 words of memory out of 5000000
  47775 multiletter control sequences out of 15000+600000
  692828 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1058,10 +1066,10 @@ f-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2025/texmf-dist
 /fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/ur
 w/helvetic/uhvro8a.pfb>
-Output written on cv.pdf (15 pages, 557132 bytes).
+Output written on cv.pdf (15 pages, 557781 bytes).
 PDF statistics:
- 791 PDF objects out of 1000 (max. 8388607)
- 746 compressed objects within 8 object streams
+ 793 PDF objects out of 1000 (max. 8388607)
+ 748 compressed objects within 8 object streams
  32 named destinations out of 1000 (max. 500000)
  140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
