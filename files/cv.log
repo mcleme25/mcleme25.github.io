@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  14 JUN 2026 07:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  16 JUN 2026 10:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -906,6 +906,10 @@ Package hyperref Warning: Suppressing link with empty target on input line 360.
 
 
 
+Package hyperref Warning: Suppressing link with empty target on input line 360.
+
+
+
 Package hyperref Warning: Suppressing link with empty target on input line 363.
 
 
@@ -1066,7 +1070,7 @@ f-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2025/texmf-dist
 /fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/ur
 w/helvetic/uhvro8a.pfb>
-Output written on cv.pdf (15 pages, 557781 bytes).
+Output written on cv.pdf (15 pages, 557593 bytes).
 PDF statistics:
  793 PDF objects out of 1000 (max. 8388607)
  748 compressed objects within 8 object streams
