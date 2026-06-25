@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  17 JUN 2026 10:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  25 JUN 2026 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -935,21 +935,6 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.0pt}.
 
 [6]
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 526.
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 529.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 620.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 778.
-
-
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -958,6 +943,14 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.0pt}.
 
 [7]
+
+Package hyperref Warning: Suppressing link with empty target on input line 621.
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 779.
+
+
 ignored error: Infinite glue shrinkage found in box being split
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1003,7 +996,13 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.0pt}.
 
 [12]
-ignored error: Infinite glue shrinkage found in box being split
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 14.4pt on input line 860.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 863.
+
+
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -1013,9 +1012,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [13]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 917.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 960.
+(Font)              scaled to size 10.0pt on input line 933.
 
 ignored error: Infinite glue shrinkage found in box being split
 
@@ -1027,6 +1024,9 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [14{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.en
 c}]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.3pt on input line 976.
+
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -1034,7 +1034,15 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-12.0pt}.
 
-[15] 
+[15]
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-12.0pt}.
+
+[16] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (./cv.aux)
  ***********
@@ -1042,11 +1050,11 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
  ***********
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 65A24DAFC9E3C7935A4E3E587056F236;1879.
+(rerunfilecheck)             Checksum: A57686D4E45DF33D3513CBC98FF4FA0C;1879.
  ) 
 Here is how much of TeX's memory you used:
- 19190 strings out of 467538
- 317625 string characters out of 5419545
+ 19191 strings out of 467538
+ 317632 string characters out of 5419545
  888801 words of memory out of 5000000
  47775 multiletter control sequences out of 15000+600000
  692828 words of font info for 90 fonts, out of 8000000 for 9000
@@ -1062,10 +1070,10 @@ f-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2025/texmf-dist
 /fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/ur
 w/helvetic/uhvro8a.pfb>
-Output written on cv.pdf (15 pages, 557766 bytes).
+Output written on cv.pdf (16 pages, 558295 bytes).
 PDF statistics:
- 795 PDF objects out of 1000 (max. 8388607)
- 750 compressed objects within 8 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 803 PDF objects out of 1000 (max. 8388607)
+ 757 compressed objects within 8 object streams
+ 33 named destinations out of 1000 (max. 500000)
  140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
