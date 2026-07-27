@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  17 JUL 2026 16:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  27 JUL 2026 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -944,11 +944,11 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [7]
 
-Package hyperref Warning: Suppressing link with empty target on input line 630.
+Package hyperref Warning: Suppressing link with empty target on input line 638.
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 788.
+Package hyperref Warning: Suppressing link with empty target on input line 796.
 
 
 ignored error: Infinite glue shrinkage found in box being split
@@ -997,10 +997,10 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [12]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 869.
+(Font)              scaled to size 14.4pt on input line 877.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 872.
+Package hyperref Warning: Suppressing link with empty target on input line 880.
 
 
 ignored error: Infinite glue shrinkage found in box being split
@@ -1013,7 +1013,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [13]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 942.
+(Font)              scaled to size 10.0pt on input line 950.
 
 ignored error: Infinite glue shrinkage found in box being split
 
@@ -1026,8 +1026,9 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 [14{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.en
 c}]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 985.
+(Font)              scaled to size 7.3pt on input line 984.
 
+ignored error: Infinite glue shrinkage found in box being split
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -1043,15 +1044,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-12.0pt}.
 
-[16]
-
-Package fancyhdr Warning: \headheight is too small (0.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-12.0pt}.
-
-[17] 
+[16] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (./cv.aux)
  ***********
@@ -1059,11 +1052,11 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
  ***********
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: A57686D4E45DF33D3513CBC98FF4FA0C;1879.
+(rerunfilecheck)             Checksum: BC366BC863E89D9495F2A65A7D308366;1879.
  ) 
 Here is how much of TeX's memory you used:
- 19192 strings out of 467538
- 317639 string characters out of 5419545
+ 19191 strings out of 467538
+ 317632 string characters out of 5419545
  888988 words of memory out of 5000000
  47775 multiletter control sequences out of 15000+600000
  692828 words of font info for 90 fonts, out of 8000000 for 9000
@@ -1079,10 +1072,10 @@ f-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2025/texmf-dist
 /fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/ur
 w/helvetic/uhvro8a.pfb>
-Output written on cv.pdf (17 pages, 559184 bytes).
+Output written on cv.pdf (16 pages, 559263 bytes).
 PDF statistics:
- 810 PDF objects out of 1000 (max. 8388607)
- 763 compressed objects within 8 object streams
- 34 named destinations out of 1000 (max. 500000)
+ 807 PDF objects out of 1000 (max. 8388607)
+ 761 compressed objects within 8 object streams
+ 33 named destinations out of 1000 (max. 500000)
  140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
