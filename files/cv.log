@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  10 AUG 2026 10:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.18)  11 AUG 2026 11:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -944,11 +944,11 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [7]
 
-Package hyperref Warning: Suppressing link with empty target on input line 638.
+Package hyperref Warning: Suppressing link with empty target on input line 641.
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 796.
+Package hyperref Warning: Suppressing link with empty target on input line 799.
 
 
 ignored error: Infinite glue shrinkage found in box being split
@@ -997,10 +997,10 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [12]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 877.
+(Font)              scaled to size 14.4pt on input line 880.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 880.
+Package hyperref Warning: Suppressing link with empty target on input line 883.
 
 
 ignored error: Infinite glue shrinkage found in box being split
@@ -1013,7 +1013,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [13]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 950.
+(Font)              scaled to size 10.0pt on input line 953.
 
 ignored error: Infinite glue shrinkage found in box being split
 
@@ -1026,7 +1026,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 [14{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.en
 c}]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 984.
+(Font)              scaled to size 7.3pt on input line 987.
 
 ignored error: Infinite glue shrinkage found in box being split
 
@@ -1072,10 +1072,10 @@ f-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2025/texmf-dist
 /fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/ur
 w/helvetic/uhvro8a.pfb>
-Output written on cv.pdf (16 pages, 559471 bytes).
+Output written on cv.pdf (16 pages, 559745 bytes).
 PDF statistics:
- 809 PDF objects out of 1000 (max. 8388607)
- 763 compressed objects within 8 object streams
+ 811 PDF objects out of 1000 (max. 8388607)
+ 765 compressed objects within 8 object streams
  33 named destinations out of 1000 (max. 500000)
  140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
