@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.31)  23 SEP 2026 06:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.31)  23 SEP 2026 06:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -918,11 +918,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [5]
 
-Package hyperref Warning: Suppressing link with empty target on input line 500.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 508.
+Package hyperref Warning: Suppressing link with empty target on input line 472.
 
 
 
@@ -934,6 +930,14 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [6]
 
+Package hyperref Warning: Suppressing link with empty target on input line 504.
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 512.
+
+
+
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.0pt}.
@@ -942,11 +946,11 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [7]
 
-Package hyperref Warning: Suppressing link with empty target on input line 649.
+Package hyperref Warning: Suppressing link with empty target on input line 653.
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 807.
+Package hyperref Warning: Suppressing link with empty target on input line 811.
 
 
 
@@ -990,10 +994,10 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [12]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 888.
+(Font)              scaled to size 14.4pt on input line 892.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 891.
+Package hyperref Warning: Suppressing link with empty target on input line 895.
 
 
 
@@ -1004,20 +1008,18 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.0pt}.
 
 [13]
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-12.0pt}.
+
+[14]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 961.
-
-
-Package fancyhdr Warning: \headheight is too small (0.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-12.0pt}.
-
-[14{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.en
-c}]
+(Font)              scaled to size 10.0pt on input line 967.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 995.
+(Font)              scaled to size 7.3pt on input line 1004.
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1026,7 +1028,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-12.0pt}.
 
-[15]
+[15{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.en
+c}]
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -1047,7 +1050,7 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  19251 strings out of 467099
  319967 string characters out of 5408259
- 899725 words of memory out of 5000000
+ 900725 words of memory out of 5000000
  48264 multiletter control sequences out of 15000+600000
  692828 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1062,7 +1065,7 @@ f-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2026/texmf-dist
 /fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2026/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/ur
 w/helvetic/uhvro8a.pfb>
-Output written on cv.pdf (16 pages, 561600 bytes).
+Output written on cv.pdf (16 pages, 562905 bytes).
 PDF statistics:
  819 PDF objects out of 1000 (max. 8388607)
  773 compressed objects within 8 object streams
