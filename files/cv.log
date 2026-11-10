@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  5 NOV 2026 13:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  10 NOV 2026 16:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -925,11 +925,11 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [5]
 
-Package hyperref Warning: Suppressing link with empty target on input line 472.
+Package hyperref Warning: Suppressing link with empty target on input line 476.
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 480.
+Package hyperref Warning: Suppressing link with empty target on input line 484.
 
 
 
@@ -943,11 +943,11 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [6]
 
-Package hyperref Warning: Suppressing link with empty target on input line 626.
+Package hyperref Warning: Suppressing link with empty target on input line 630.
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 784.
+Package hyperref Warning: Suppressing link with empty target on input line 788.
 
 
 
@@ -1006,10 +1006,10 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [12]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 865.
+(Font)              scaled to size 14.4pt on input line 869.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 868.
+Package hyperref Warning: Suppressing link with empty target on input line 872.
 
 
 
@@ -1023,7 +1023,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [13]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 938.
+(Font)              scaled to size 10.0pt on input line 942.
 
 ignored: Infinite glue shrinkage found in box being split
 
@@ -1036,7 +1036,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 [14{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.en
 c}]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 1014.
+(Font)              scaled to size 7.3pt on input line 1018.
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1066,7 +1066,7 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  19198 strings out of 467525
  317712 string characters out of 5418982
- 898203 words of memory out of 5000000
+ 899203 words of memory out of 5000000
  47787 multiletter control sequences out of 15000+600000
  692828 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1081,10 +1081,10 @@ f-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2026/texmf-dist
 /fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2026/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/ur
 w/helvetic/uhvro8a.pfb>
-Output written on cv.pdf (16 pages, 563655 bytes).
+Output written on cv.pdf (16 pages, 564126 bytes).
 PDF statistics:
- 832 PDF objects out of 1000 (max. 8388607)
- 786 compressed objects within 8 object streams
+ 833 PDF objects out of 1000 (max. 8388607)
+ 787 compressed objects within 8 object streams
  34 named destinations out of 1000 (max. 500000)
  148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
